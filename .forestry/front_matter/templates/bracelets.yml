@@ -1,0 +1,36 @@
+---
+label: bracelets
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: id
+  config:
+    required: true
+- type: text
+  name: name
+  label: name
+  config:
+    required: true
+- type: number
+  label: price
+  name: price
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+    required: true
+- type: file
+  name: image
+  label: image
+- type: text
+  name: product_url
+  label: url
+  config:
+    required: true
+  default: https://mmj.netlify.com/bracelets
