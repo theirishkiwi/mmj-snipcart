@@ -1,0 +1,28 @@
+---
+label: test
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: id
+  label: id
+- type: file
+  name: image
+  label: image
+- type: text
+  name: name
+  label: name
+- type: text
+  name: price
+  label: price
+- type: text
+  name: product_url
+  label: product_url
+- type: text
+  name: url
+  label: url
