@@ -28,12 +28,12 @@ theme = "hugo-serif-theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Products"
+    name = "Services"
     url = "/services/"
       weight = 1
 
   [[menu.main]]
-      name = "About"
+      name = "Team"
       url = "/team/"
       weight = 2
 
