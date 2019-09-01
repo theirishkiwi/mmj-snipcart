@@ -57,5 +57,3 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/rings
-pages:
-- content/rings/autum_leaf.md
