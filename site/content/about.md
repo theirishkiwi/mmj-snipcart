@@ -3,48 +3,19 @@ title: 'About'
 menu: 'main'
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## About Me
 
-## Ne verba patulosque numen vix libet
+Originally from Sweden, I have lived in Scotland for 18 years.  I trained in Jewellery and Metalwork at Sir John Cass Faculty of Arts in London between 1993 and 1996. I then had my own jewellery business, “Mermaid’s Purse Jewellery”, in Ross shire on the West Coast of Scotland. After taking a break due to family commitments, I started making jewellery again.  I now live on the island of Stronsay, in Orkney, and work from my small workshop at home which overlooks the Auskerry sound and the North Sea. I have always found inspiration in the sea, shore and sky, which are constantly changing, providing me with endless design ideas.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+I hope that my jewellery will inspire you to be drawn to the diverse and often dramatic maritime landscape that surrounds Orkney.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+I love what I do, and hope you will love it too!
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
 
-## Postquam tamen
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+## Stronsay
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+The island of Stronsay is about 7 miles long and is located in the east of the Orkney archipelago.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+Approximately 350 people inhabit the island and there is a junior high school with just over 30 pupils. The island is often described as being 'all arms and legs' or three-legged because of the three large bays which bite into the island. It is also very low-lying, with its highest point being Burgh Hill which is only 46 m (154 ft) above sea level. The island is very fertile and green and have several lovely sandy beaches and turquoise bays. The eastern coastline between Lamb Ness and Odiness is magnificent, with features including the famous Vat of Kirbister, a dramatic opening or 'gloup' spanned by the finest natural arch in Orkney. The cliffs are home to several seabird colonies. There are 2 ferries daily and a 8 seater plane that flies twice a day to provide transport to and from the island. 
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
