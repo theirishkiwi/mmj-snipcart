@@ -8,6 +8,23 @@
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ .Content }}
+        <div class="product">
+  <h2 class="product__name">{{ .name }}</h2>
+  <img class="product__image" src="{{ .image }}" alt="">
+  <p class="product__description">{{ .description }}</p>
+  <div class="product__button-container">
+    <div class="product__price">£{{ .price }}</div>
+    <button
+      class="snipcart-add-item buy-button"
+      data-item-id="{{ .id }}"
+      data-item-name="{{ .name }}"
+      data-item-price="{{ .price }}"
+      data-item-url="{{ .product_url }}"
+      data-item-description="{{ .description }}">
+      Add to cart
+    </button>
+  </div>
+</div>
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
