@@ -28,8 +28,8 @@ theme = "hugo-serif-theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    name = "Rings"
+    url = "/rings/"
       weight = 1
 
   [[menu.main]]
@@ -47,3 +47,8 @@ theme = "hugo-serif-theme"
     name = "Contact"
     url = "/contact/"
       weight = 2
+      
+  [[menu.footer]]
+    name = "Information"
+    url = "/info/"
+      weight = 3   
