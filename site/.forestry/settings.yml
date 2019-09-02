@@ -25,8 +25,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: site/content/bracelets
-  label: Bracelets
+  path: site/content/rings
+  label: Rings
   create: all
   match: "**/*"
 upload_dir: site/static/uploads
