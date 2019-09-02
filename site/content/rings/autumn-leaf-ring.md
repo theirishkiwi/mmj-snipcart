@@ -5,7 +5,7 @@ id = "Autumn_Leaf"
 image = "/uploads/autumn-leaf-ring.jpg"
 name = "Autumn Leaf ring"
 price = "95.00"
-product_url = "https://marionmillerjewellery.netlify.com/rings"
+product_url = "https://mmj.netlify.com/rings"
 ring_size = "s"
 
 +++
