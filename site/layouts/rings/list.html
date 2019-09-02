@@ -10,7 +10,7 @@
         <!-- {{ .Content }} -->
         
   {{ range where .Site.RegularPages "Section" "rings"}}
-    {{ partial "product.html" .Params }}
+    {{ partial "rings/product.html" .Params }}
   {{ end }}
         
       </div>
