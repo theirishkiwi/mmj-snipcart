@@ -6,5 +6,5 @@ image = "/uploads/broad-wave-ring-with-fine-blue-moonstone-6mm-and-blue-topaz-4m
 name = "Broad Wave Ring with Fine Blue Moonstone and Topaz"
 price = "110.00"
 product_url = "https://mmj.netlify.com/rings/"
-
+url "/"
 +++
