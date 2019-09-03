@@ -35,5 +35,5 @@ fields:
     required: true
   default: https://mmj.netlify.com/rings
 pages:
-- site/content/rings/autumn-leaf-ring.md
 - site/content/rings/wave_ring.md
+- site/content/rings/autumn-leaf-ring.md
