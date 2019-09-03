@@ -8,7 +8,12 @@
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
 
+// Utilities
+@import "utilities/colors.scss";
+@import "utilities/mixins.scss";
+
 // Components
+@import "components/button.scss";
 @import 'components/reset';
 @import 'components/type';
 @import 'components/page';
