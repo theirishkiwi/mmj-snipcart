@@ -11,6 +11,12 @@
 @import "./layouts/product.scss";
 @import "./layouts/footer.scss";
 
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #404040;
+
 .product {
     width: 100%;
     font-weight: bold;
@@ -20,8 +26,3 @@
     margin-bottom: 100px;
     grid-column-gap: 100px;
 }
-* {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #404040;
