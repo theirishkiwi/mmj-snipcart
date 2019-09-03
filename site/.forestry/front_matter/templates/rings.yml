@@ -57,3 +57,5 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/rings
+pages:
+- site/content/rings/wave_ring.md
