@@ -12,29 +12,6 @@ fields:
   label: name
   config:
     required: true
-- name: ring_size
-  type: select
-  default: s
-  config:
-    required: false
-    options:
-    - s
-    - " m"
-    - " l"
-    - " onesize"
-    - k
-    - n
-    - o
-    - p
-    - q
-    - r
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Ring Size
-  description: Select your ring size from the list
 - type: number
   label: price
   name: price
