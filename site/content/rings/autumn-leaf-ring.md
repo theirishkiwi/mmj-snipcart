@@ -5,6 +5,5 @@ image = "/uploads/autumn-leaf-ring.jpg"
 name = "Autumn Leaf ring"
 price = "95.00"
 product_url = "https://mmjewellery.netlify.com/rings/"
-url = "/"
 
 +++
