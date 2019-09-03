@@ -9,9 +9,11 @@
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         <!-- {{ .Content }} -->
         
-  {{ range where .Site.RegularPages "Section" "rings"}}
-    {{ partial "rings/product.html" .Params }}
-  {{ end }}     
+          <div class="products">      
+            {{ range where .Site.RegularPages "Section" "rings"}}
+              {{ partial "rings/product.html" .Params }}
+            {{ end }}     
+         </div> 
         
       </div>
       {{ if .Params.intro_image }}
