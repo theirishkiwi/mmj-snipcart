@@ -11,7 +11,7 @@
         
           <div class="products">      
             {{ range where .Site.RegularPages "Section" "bracelets"}}
-              {{ partial "product.html" .Params }}
+              {{ partial "bracelets/product.html" .Params }}
             {{ end }}     
          </div> 
         
