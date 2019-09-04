@@ -31,11 +31,16 @@ theme = "hugo-serif-theme"
     name = "Rings"
     url = "/rings/"
       weight = 1
+ 
+  [[menu.main]]
+    name = "Bracelets"
+    url = "/bracelets/"
+      weight = 2
 
   [[menu.main]]
       name = "Team"
       url = "/team/"
-      weight = 2
+      weight = 3
 
   # Footer Menu
   [[menu.footer]]
