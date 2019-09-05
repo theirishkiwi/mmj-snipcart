@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
   {{ end }}
   {{ block "header_css" . }}{{ end }}
-  <!-- SNIPCART-->
-  {{ partial "snipcart.html" . }}
+  <!-- SNIPCART
+  {{ partial "snipcart.html" . }} -->
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
