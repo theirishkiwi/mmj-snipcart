@@ -28,7 +28,7 @@
   {{ partial "main-menu-mobile.html" . }}
   <div class="wrapper">
     {{ partial "header.html" . }}
-    {{if not .IsHome}}
+    {{if not .IsHome}}{{if not .InPage}}
       {{ partial "snipcart-checkout.html" . }}
     {{ end }}
     {{ block "main" . }}
