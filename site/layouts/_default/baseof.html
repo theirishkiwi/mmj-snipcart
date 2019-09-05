@@ -29,7 +29,7 @@
   <div class="wrapper">
     {{ partial "header.html" . }}
     <!-- {{if not .IsHome}} -->
-    {{if .IsNode}}
+    {{ if .IsNode }} 
       {{ partial "snipcart-checkout.html" . }}
     {{ end }}
     {{ block "main" . }}
