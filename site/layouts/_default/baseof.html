@@ -30,7 +30,7 @@
     {{ partial "header.html" . }}
     {{if not .IsHome}}{{if not .InPage}}
       {{ partial "snipcart-checkout.html" . }}
-    {{ end }}
+    {{ end }}{{ end }}
     {{ block "main" . }}
     {{ end }}
   </div>
