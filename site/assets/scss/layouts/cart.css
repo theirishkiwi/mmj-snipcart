@@ -1,0 +1,5 @@
+.header__cart .snipcart-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
