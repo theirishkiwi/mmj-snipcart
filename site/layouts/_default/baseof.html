@@ -28,7 +28,7 @@
   {{ partial "main-menu-mobile.html" . }}
   <div class="wrapper">
     {{ partial "header.html" . }}
-    {{ if (in .Title "rings|bracelets") }}
+    {{ if (in .Title "Rings|Bracelets") }}
       {{ partial "snipcart-checkout.html" . }}
     {{ end}}
     {{ block "main" . }}
