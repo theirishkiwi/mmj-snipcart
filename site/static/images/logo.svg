@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="294.97168"
+   height="28"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1576"
+     inkscape:window-height="618"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="141.95147"
+     inkscape:cy="-13.921011"
+     inkscape:window-x="276"
+     inkscape:window-y="517"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g6"
+     inkscape:pagecheckerboard="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g6"
+     style="fill:none;fill-rule:nonzero"
+     transform="translate(-3.909043,-4.6455143)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.63337326px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.11583447"
+       x="3.3139315"
+       y="25.504175"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         x="3.3139315"
+         y="25.504175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.75557899px;font-family:'dm serif display';-inkscape-font-specification:'dm serif display';stroke-width:1.11583447">Marion<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.75557899px;font-family:'dm serif display';-inkscape-font-specification:'dm serif display';fill:#2e86f8;fill-opacity:1;stroke-width:1.11583447"
+   id="tspan4542">Miller</tspan>Jewellery</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="53.250996"
+       id="text26"
+       y="69.075699"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         x="53.250996"
+         y="105.56891" /><tspan
+         sodipodi:role="line"
+         x="53.250996"
+         y="155.56891"
+         id="tspan28" /></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="30.067055"
+     y="31.354486"
+     id="text18"><tspan
+       sodipodi:role="line"
+       id="tspan16"
+       x="30.067055"
+       y="67.847702" /></text>
+</svg>
