@@ -6,7 +6,7 @@
 <div class="intro">
   <div class="container">
     <!-- div class="row justify-content-start" -->
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <!--div class="col-12 col-md-7 col-lg-6 order-2 order-md-1"-->
         <!-- {{ .Content }} -->
         
           <main class="products">
@@ -21,7 +21,7 @@
         <img
           class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
           src="{{ .Params.intro_image | relURL }}" />
-      </div>
+      <!-- /div -->
       {{ end }}
     <!--/div-->
   </div>
