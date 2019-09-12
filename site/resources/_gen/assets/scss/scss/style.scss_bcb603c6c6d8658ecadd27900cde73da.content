@@ -4185,7 +4185,7 @@ ol {
       display: block;
       width: 120px; } }
   .logo img {
-    width: 100%;
+    width: 300%;
     height: auto; }
   .logo a {
     display: block;
@@ -4200,7 +4200,7 @@ ol {
     .logo-mobile {
       display: none; } }
   .logo-mobile img {
-    width: 100%;
+    width: 200%;
     height: auto; }
   .logo-mobile a {
     display: block;
