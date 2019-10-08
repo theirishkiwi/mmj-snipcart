@@ -34,3 +34,5 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/earrings
+pages:
+- site/content/earrings/owl_studs.md
