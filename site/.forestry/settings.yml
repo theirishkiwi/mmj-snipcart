@@ -20,8 +20,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: site/content/services
-  label: Services
+  path: site/content/blog
+  label: Blog
   create: all
   match: "**/*"
 - type: directory
