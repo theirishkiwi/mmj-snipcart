@@ -34,3 +34,5 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/pendants
+pages:
+- site/content/pendants/moongazing.md
