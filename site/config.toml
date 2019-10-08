@@ -33,14 +33,24 @@ theme = "hugo-serif-theme"
       weight = 1
  
   [[menu.main]]
+    name = "Earrings"
+    url = "/earrings/"
+      weight = 2
+      
+  [[menu.main]]
+    name = "Pendants"
+    url = "/pendants/"
+      weight = 3
+      
+  [[menu.main]]
     name = "Bracelets"
     url = "/bracelets/"
-      weight = 2
+      weight = 4
 
   #[[menu.main]]
   #    name = "Team"
   #    url = "/team/"
-  #    weight = 3
+  #    weight = 5
 
   # Footer Menu
   [[menu.footer]]
