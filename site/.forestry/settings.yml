@@ -29,6 +29,11 @@ sections:
   label: Rings
   create: all
   match: "**/*"
+- type: directory
+  path: site/content/bracelets
+  label: Bracelets
+  create: all
+  match: "**/*"
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
