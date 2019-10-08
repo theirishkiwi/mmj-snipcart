@@ -3,7 +3,7 @@ description = "These Sterling Silver Owl ear studs definitely have the \"cute fa
 id = "owl_studs"
 image = "/uploads/earrings_gallery.jpg"
 name = "Owl Ear Studs /Earrings"
-price = 44
+price = 48
 product_url = "https://mmj.netlify.com/earrings"
 
 +++
