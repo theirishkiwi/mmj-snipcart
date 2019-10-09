@@ -1,15 +1,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3 col-sm-6">
+            <h2 class="product__name">{{ .name }}</h2> 
             <div class="product-grid">
-               <h2 class="product__name">{{ .name }}</h2> 
                 <div class="product-image">
                     <a href="#">
                         <img class="pic-1" src="{{ .image }}">
                         <img class="pic-2" src="{{ .image }}">
                     </a>
                           </div>
-                                <div class="product__price">£{{ .price }}</div>
+                                <p class="product__description">{{ .description }}</p>
+                                 <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
                                       data-item-id="{{ .id }}"
@@ -19,6 +20,5 @@
                                       data-item-description="{{ .description }}">
                                       Add to cart
                                    </button>
-                    <p class="product__description">{{ .description }}</p>
             </div>
         </div>
