@@ -8,9 +8,7 @@
                         <img class="pic-2" src="{{ .image }}">
                     </a>
                           </div>
-                                <h2 class="product__name">{{ .name }}</h2>
-                                <p class="product__description">{{ .description }}</p>
-                              <div class="product__price">£{{ .price }}</div>
+                                <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
                                       data-item-id="{{ .id }}"
@@ -20,5 +18,7 @@
                                       data-item-description="{{ .description }}">
                                       Add to cart
                                    </button>
+                                <h2 class="product__name">{{ .name }}</h2>
+                                <p class="product__description">{{ .description }}</p>
             </div>
         </div>
