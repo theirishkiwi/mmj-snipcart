@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col-md-3 col-sm-6">
             <div class="product-grid">
+                <p class="product__description">{{ .description }}</p>
                 <div class="product-image">
                     <a href="#">
                         <img class="pic-1" src="{{ .image }}">
@@ -19,6 +20,5 @@
                                       Add to cart
                                    </button>
                                 <h2 class="product__name">{{ .name }}</h2>
-                                <p class="product__description">{{ .description }}</p>
             </div>
         </div>
