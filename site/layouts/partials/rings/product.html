@@ -5,11 +5,12 @@
                 <div class="product-image">
                     <a href="#">
                         <img class="pic-1" src="{{ .image }}">
-                        <img class="pic-2" src="{{ .image }}">
+                        <p class="product__description">{{ .description }}</p>
+                        <!--img class="pic-2" src="{{ .image }}"-->
                     </a>
                           </div>
                                 <h2 class="product__name">{{ .name }}</h2> 
-                                <p class="product__description">{{ .description }}</p>
+                                <!--p class="product__description">{{ .description }}</p-->
                                  <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
