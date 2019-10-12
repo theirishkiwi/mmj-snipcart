@@ -28,18 +28,15 @@ fields:
 - type: file
   name: image
   label: image
+- type: file
+  name: img_closeup
+  label: img_closeup
 - type: text
   name: product_url
   label: url
   config:
     required: true
   default: https://mmj.netlify.com/rings
-- name: img_closeup
-  type: file
-  config:
-    maxSize: 250
-  label: img_closeup
-  description: item close-up
 pages:
 - site/content/rings/autumn-leaf-ring.md
 - site/content/rings/delicate-wave-ring-1.md
