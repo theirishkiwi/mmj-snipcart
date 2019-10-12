@@ -41,5 +41,6 @@ fields:
     required: true
   default: https://mmjewellery.netlify.com/earrings/
 pages:
+- site/content/earrings/mini-grotie-buckie-studs.md
 - site/content/earrings/owl_studs.md
 - site/content/earrings/beach-combing-shells.md
