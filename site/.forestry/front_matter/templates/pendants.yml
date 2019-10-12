@@ -33,6 +33,7 @@ fields:
   config:
     maxSize: ''
   label: image close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
