@@ -30,7 +30,8 @@ fields:
   label: image
 - type: file
   name: img_closeup
-  label: image
+  label: Image Close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
