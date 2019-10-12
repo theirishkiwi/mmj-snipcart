@@ -38,7 +38,7 @@ fields:
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/earrings
+  default: https://mmjewellery.netlify.com/earrings/
 pages:
 - site/content/earrings/beach-combing-shells.md
 - site/content/earrings/owl_studs.md
