@@ -35,6 +35,6 @@ fields:
     required: true
   default: https://mmj.netlify.com/pendants
 pages:
-- site/content/pendants/beach_combing.md
 - site/content/pendants/robin-pendant.md
+- site/content/pendants/beach_combing.md
 - site/content/pendants/moongazing.md
