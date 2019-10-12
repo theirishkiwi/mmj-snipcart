@@ -40,5 +40,5 @@ fields:
     required: true
   default: https://mmjewellery.netlify.com/bracelets/
 pages:
-- site/content/pendants/puffin-moon-pendant.md
 - site/content/pendants/stronsay-island-pendant.md
+- site/content/pendants/puffin-moon-pendant.md

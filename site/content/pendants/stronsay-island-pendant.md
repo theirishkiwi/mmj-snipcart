@@ -5,6 +5,6 @@ image = "/uploads/stronsay-island-pendant.jpg"
 img_closeup = "/uploads/stronsay-island-pendant_closeup.jpg"
 name = "Stronsay Island pendant"
 price = 58
-product_url = "https://mmj.netlify.com/bracelets"
+product_url = "https://mmjewellery.netlify.com/pendants/"
 
 +++
