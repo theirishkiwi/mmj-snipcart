@@ -34,6 +34,12 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/rings
+- name: img_closeup
+  type: file
+  config:
+    maxSize: 250
+  label: img_closeup
+  description: item close-up
 pages:
 - site/content/rings/delicate-wave-ring-1.md
 - site/content/rings/delicate-wave-ring.md
