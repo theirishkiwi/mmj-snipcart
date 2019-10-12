@@ -38,7 +38,7 @@ fields:
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/bracelets
+  default: https://mmjewellery.netlify.com/bracelets/
 pages:
 - site/content/pendants/stronsay-island-pendant.md
 - site/content/pendants/puffin-moon-pendant.md
