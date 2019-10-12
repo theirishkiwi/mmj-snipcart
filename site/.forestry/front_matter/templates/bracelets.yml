@@ -34,3 +34,5 @@ fields:
   config:
     required: true
   default: https://mmj.netlify.com/bracelets
+pages:
+- site/content/pendants/stronsay-island-pendant.md
