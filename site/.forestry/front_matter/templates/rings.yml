@@ -36,7 +36,7 @@ fields:
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/rings
+  default: https://mmjewellery.netlify.com/rings/
 pages:
 - site/content/rings/delicate-wave-ring-1.md
 - site/content/rings/delicate-wave-ring.md
