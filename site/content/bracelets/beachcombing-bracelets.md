@@ -5,7 +5,5 @@ id = "beach-combing-charm-bracelet"
 image = "/uploads/beach-combing-charm-bracelet-large-link.jpg"
 name = "Beach Combing Charm Bracelet (Large link)"
 price = "140.00"
-product_url = "https://mmjewellery.netlify.com/bracelets"
-url = "/"
-
+product_url = "https://mmjewellery.netlify.com/bracelets/"
 +++
