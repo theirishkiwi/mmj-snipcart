@@ -1,20 +1,24 @@
-<div class="product">
-  <h2 class="product__name">{{ .name }}</h2>
-  <img class="product__image" src="{{ .image }}" alt="">
-  <p class="product__description">{{ .description }}</p>
-  <div class="product__button-container">
-    <div class="product__price">£{{ .price }}</div>
-    <button
-      class="snipcart-add-item buy-button"
-      data-item-id="{{ .id }}"
-      data-item-name="{{ .name }}"
-      data-item-price="{{ .price }}"
-      data-item-custom1-name="Ring Size"
-      data-item-custom1-options="s|m|l|one size|k|n|o|p|q|r"
-      data-item-custom1-value="s"
-      data-item-url="{{ .product_url }}"
-      data-item-description="{{ .description }}">
-      Add to cart
-    </button>
-  </div>
-</div>
+<div class="container d-flex flex-wrap htcs-flex-container">
+    <!--div class="row"-->
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="{{ .image }}">
+                        <img class="pic-2" src="{{ .image }}">
+                    </a>
+                          </div>
+                                <h2 class="product__name">{{ .name }}</h2> 
+                                <!--p class="product__description">{{ .description }}</p-->
+                                 <div class="product__price">£{{ .price }}</div>
+                                  <button
+                                      class="snipcart-add-item buy-button"
+                                      data-item-id="{{ .id }}"
+                                      data-item-name="{{ .name }}"
+                                      data-item-price="{{ .price }}"
+                                      data-item-url="{{ .product_url }}"
+                                      data-item-description="{{ .description }}">
+                                      Add to cart
+                                   </button>
+            <!--/div-->
+        </div>
