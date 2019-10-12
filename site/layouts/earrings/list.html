@@ -5,7 +5,7 @@
 {{ define "main" }}
 <div class="intro">
   <div class="container">    
-        <main class="products">
+        <main class="products d-flex flex-wrap htcs-flex-container">
             {{ range where .Site.RegularPages "Section" "earrings"}}
               {{ partial "product.html" .Params }}
             {{ end }}     
