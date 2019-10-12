@@ -1,8 +1,8 @@
 ---
 title: About
 menu:
-  main:
-    weight: 5
+  footer:
+    weight: 4
 
 ---
 ## About Me
