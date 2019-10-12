@@ -38,7 +38,7 @@ fields:
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/pendants
+  default: https://mmjewellery.netlify.com/pendants/
 pages:
 - site/content/pendants/beach_combing.md
 - site/content/pendants/robin-pendant.md
