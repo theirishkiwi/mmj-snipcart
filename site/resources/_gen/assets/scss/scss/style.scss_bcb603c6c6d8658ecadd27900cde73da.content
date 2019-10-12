@@ -4487,7 +4487,6 @@ ol {
       .intro h1 {
         font-size: 50px; } }
   .intro h2 {
-    width: 80%;
     font-size: 1.2rem;
     line-height: 1.4;
     margin-bottom: 30px;
@@ -4746,7 +4745,7 @@ h3.h3 {
 .product-grid {
   font-family: Raleway,sans-serif;
   text-align: center;
-  padding: 0 0 72px;
+  padding: 0 0 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
