@@ -4,8 +4,8 @@
 
 {{ define "main" }}
 <div class="intro">
-  <div class="container">    
-        <main class="products">
+  <div class="container">
+          <main class="products d-flex flex-wrap htcs-flex-container">
             {{ range where .Site.RegularPages "Section" "pendants"}}
               {{ partial "product.html" .Params }}
             {{ end }}     
