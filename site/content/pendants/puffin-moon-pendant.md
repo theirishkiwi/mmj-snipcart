@@ -5,6 +5,6 @@ image = "/uploads/puffin-by-the-moon-picture-pendant.jpg"
 img_closeup = "/uploads/puffin-by-the-moon-picture-pendant_closeup.jpg"
 name = "\"Puffin by the Moon\" picture pendant"
 price = 89
-product_url = "https://mmj.netlify.com/bracelets"
+product_url = "https://mmjewellery.netlify.com/pendants/"
 
 +++
