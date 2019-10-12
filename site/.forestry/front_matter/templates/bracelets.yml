@@ -28,6 +28,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: img_closeup
+  type: file
+  config:
+    maxSize: ''
+  label: Image close-up
 - type: text
   name: product_url
   label: url
