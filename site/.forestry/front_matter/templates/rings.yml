@@ -30,7 +30,7 @@ fields:
   label: image
 - type: file
   name: img_closeup
-  label: img_closeup
+  label: image
 - type: text
   name: product_url
   label: url
