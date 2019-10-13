@@ -10,6 +10,8 @@
                           </div>
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
                                 <!--p class="product__description">{{ .description }}</p-->
+                                <p class="product__description collapse" id="viewdetails">{{ .description }}</p>
+                                <p><a class="btn" data-toggle="collapse" data-target="#viewdetails">View Description &raquo;</a></p>
                                  <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
