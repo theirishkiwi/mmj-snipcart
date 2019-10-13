@@ -33,13 +33,14 @@ fields:
   config:
     maxSize: ''
   label: image close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/pendants
+  default: https://mmjewellery.netlify.com/pendants/
 pages:
 - site/content/pendants/robin-pendant.md
-- site/content/pendants/beach_combing.md
 - site/content/pendants/moongazing.md
+- site/content/pendants/beach_combing.md

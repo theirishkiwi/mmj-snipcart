@@ -30,15 +30,16 @@ fields:
   label: image
 - type: file
   name: img_closeup
-  label: image
+  label: Image Close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/rings
+  default: https://mmjewellery.netlify.com/rings/
 pages:
-- site/content/rings/wave_ring.md
-- site/content/rings/delicate-wave-ring.md
 - site/content/rings/delicate-wave-ring-1.md
+- site/content/rings/delicate-wave-ring.md
 - site/content/rings/autumn-leaf-ring.md
+- site/content/rings/wave_ring.md

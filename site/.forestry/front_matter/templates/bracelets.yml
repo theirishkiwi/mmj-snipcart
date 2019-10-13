@@ -33,12 +33,14 @@ fields:
   config:
     maxSize: ''
   label: Image close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/bracelets
+  default: https://mmjewellery.netlify.com/bracelets/
 pages:
+- site/content/bracelets/beachcombing-bracelets.md
 - site/content/pendants/stronsay-island-pendant.md
 - site/content/pendants/puffin-moon-pendant.md

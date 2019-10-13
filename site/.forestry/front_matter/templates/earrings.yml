@@ -33,12 +33,15 @@ fields:
   config:
     maxSize: ''
   label: Image close-up
+  description: Display a cropped version of image
 - type: text
   name: product_url
   label: url
   config:
     required: true
-  default: https://mmj.netlify.com/earrings
+  default: https://mmjewellery.netlify.com/earrings/
 pages:
-- site/content/earrings/beach-combing-shells.md
+- site/content/earrings/stronsay-beach-combing-limpet-studs.md
+- site/content/earrings/mini-grotie-buckie-studs.md
 - site/content/earrings/owl_studs.md
+- site/content/earrings/beach-combing-shells.md
