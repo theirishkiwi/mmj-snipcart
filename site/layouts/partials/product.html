@@ -11,7 +11,12 @@
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
                                 <!--p class="product__description">{{ .description }}</p-->
                 
-                                <button data-toggle="collapse product__price" data-target="#{{ .id }}">Show Description</button>
+                                <button
+                                   class="snipcart-add-item buy-button"     
+                                   data-toggle="collapse" 
+                                   data-target="#{{ .id }}">
+                                   Show Description
+                                </button>
                                 <div id="{{ .id }}" class="collapse">
                                     <p class="product__description">{{ .description }}</p>
                                 </div>
