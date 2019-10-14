@@ -12,8 +12,8 @@
                                 <!--p class="product__description">{{ .description }}</p-->
                 
                 
-                               <button data-toggle="collapse" data-target="#demo">Description</button>
-                                <div id="demo" class="collapse">
+                               <button data-toggle="collapse" data-target="#{{ .id }}">Description</button>
+                                <div id="{{ .id }}" class="collapse">
                                     <p class="product__description">{{ .description }}</p>
                                 </div>
                 
