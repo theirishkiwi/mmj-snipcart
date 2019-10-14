@@ -10,12 +10,24 @@
                           </div>
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
                                 <!--p class="product__description">{{ .description }}</p-->
-                                
+                                 <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+                                <div id="demo" class="collapse">
+                                    <p class="product__description">{{ .description }}</p>
+                                </div> 
+                                 <a href="#demo" data-toggle="collapse">Collapsible</a>
+
+                                 <div id="demo" class="collapse">
+                                  <p class="product__description">{{ .description }}</p>     
+                                 </div> 
                                  <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
                                       data-item-id="{{ .id }}"
                                       data-item-name="{{ .name }}"
+                                      data-item-custom1-name="Ring Size"
+                                      data-item-custom1-options="s|m|l|one size|k|n|o|p|q|r"
+                                      data-item-custom1-value="s"    
                                       data-item-price="{{ .price }}"
                                       data-item-url="{{ .product_url }}"
                                       data-item-description="{{ .description }}">
