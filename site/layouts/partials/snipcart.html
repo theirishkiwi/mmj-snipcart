@@ -6,3 +6,13 @@
  <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js"></script>
  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css" / -->
 <!-- End -->
+
+<script>
+    $(document).ready(function() {
+        $('.menu li').bind('touchstart touchend', function(e) {
+            e.preventDefault();
+            $(this).toggleClass('over');
+    				$('body').removeClass('no-touch');
+        });
+    });
+    </script>
