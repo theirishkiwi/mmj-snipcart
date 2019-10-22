@@ -107,16 +107,16 @@
 	position:relative;
 }
 .menu li {
-	height:200px;
-	width:200px;
-	border:1px solid green
+	height:auto;
+	width:auto;
+//	border:1px solid green
 }
 .image {
 	position:absolute;
 	left:-999em;
-	width:200px;
-	height:200px;
-	background:red;
+	width:auto;
+	height:auto;
+//	background:red;
 }
 .no-touch .menu li:hover span{left:0}/* for non touch devices*/
 .menu li.over span {/* for touch devices */

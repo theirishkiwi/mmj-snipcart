@@ -4741,16 +4741,14 @@ ol {
   position: relative; }
 
 .menu li {
-  height: 200px;
-  width: 200px;
-  border: 1px solid green; }
+  height: auto;
+  width: auto; }
 
 .image {
   position: absolute;
   left: -999em;
-  width: 200px;
-  height: 200px;
-  background: red; }
+  width: auto;
+  height: auto; }
 
 .no-touch .menu li:hover span {
   left: 0; }
