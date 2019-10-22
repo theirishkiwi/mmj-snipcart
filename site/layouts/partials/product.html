@@ -3,10 +3,15 @@
         <div class="col-md-3 col-sm-6">
             <div class="no-touch product-grid">
                 <div class="product-image">
-                    <a href="">
+                    <!--a href="">
                         <img class="tnail pic-1" src="{{ .image }}" alt="">
                         <img class="image pic-2" src="{{ .img_closeup }}" alt="">
-                    </a>
+                    </a-->
+                    
+                    <ul class="menu">
+    		<li> <span class="tnail"><img class="tnail" src="{{ .image }}" alt="">
+                </span> <span class="image"><img class="image" src="{{ .img_closeup }}" alt=""></span> </li>                   
+                     </ul>
                           </div>
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
                                 <!--p class="product__description">{{ .description }}</p-->
