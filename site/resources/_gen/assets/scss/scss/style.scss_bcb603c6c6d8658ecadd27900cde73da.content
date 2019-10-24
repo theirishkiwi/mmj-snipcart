@@ -4182,9 +4182,9 @@ ol {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 120px; } }
+      width: 250px; } }
   .logo img {
-    width: 300%;
+    width: 100%;
     height: auto; }
   .logo a {
     display: block;
@@ -4199,7 +4199,7 @@ ol {
     .logo-mobile {
       display: none; } }
   .logo-mobile img {
-    width: 200%;
+    width: 100%;
     height: auto; }
   .logo-mobile a {
     display: block;
