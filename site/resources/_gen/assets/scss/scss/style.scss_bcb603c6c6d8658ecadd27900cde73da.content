@@ -4199,7 +4199,7 @@ ol {
     .logo-mobile {
       display: none; } }
   .logo-mobile img {
-    width: 100%;
+    width: 200%;
     height: auto; }
   .logo-mobile a {
     display: block;
