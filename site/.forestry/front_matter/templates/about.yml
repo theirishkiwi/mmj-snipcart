@@ -6,9 +6,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: text
-  label: text
 - name: About_image
   type: file
   config:
@@ -16,3 +13,6 @@ fields:
   default: "/uploads/marion_workshop.jpg"
   hidden: false
   label: image
+- type: text
+  name: text
+  label: text
