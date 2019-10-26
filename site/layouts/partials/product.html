@@ -1,27 +1,20 @@
-<!--div class="container"-->
-    <!--div class="row"-->
-        <div class="col-md-3 col-sm-6">
-            <div class="product-grid">
-                <div class="product-image">
-                    <!--a href="">
-                        <img class="tnail pic-1" src="{{ .image }}" alt="">
-                        <img class="image pic-2" src="{{ .img_closeup }}" alt="">
-                    </a-->
-                    
+<div class="col-md-3 col-sm-6">
+   <div class="product-grid">
+       <div class="product-image">      
                     <ul class="menu">
-    		        <li> 
-                <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
-                <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span> </li>                   
-                     </ul>
+    		          <li> 
+                         <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
+                         <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span>
+                      </li>                   
+                    </ul>
                           </div>
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
-                                <!--p class="product__description">{{ .description }}</p-->
                 
                                 <button
                                    class="snipcart-add-item buy-button"     
                                    data-toggle="collapse" 
                                    data-target="#{{ .id }}">
-                                   Show Description
+                                    <h6>Show Description</h6>
                                 </button>
                                 <div id="{{ .id }}" class="collapse">
                                     <p class="product__description">{{ .description }}</p>
@@ -35,9 +28,7 @@
                                       data-item-price="{{ .price }}"
                                       data-item-url="{{ .product_url }}"
                                       data-item-description="{{ .description }}">
-                                      Add to cart
+                                      <h6>Add to cart</h6>
                                    </button>
-            </div>
-        </div>
-    <!--/div--> <!--row-->
-<!--/div--> <!--Container-->
+  </div>
+</div>
