@@ -4510,7 +4510,6 @@ ol {
 
 .intro-image-absolute {
   max-width: none;
-  width: 60%;
   padding: 0;
   margin-bottom: 30px; }
   @media (min-width: 576px) {
@@ -4519,17 +4518,20 @@ ol {
   @media (min-width: 768px) {
     .intro-image-absolute {
       position: absolute;
+      width: 60%;
       bottom: -50px;
       left: -10px;
       width: 700px; } }
   @media (min-width: 992px) {
     .intro-image-absolute {
       bottom: -60px;
+      width: 60%;
       left: -60px;
       width: 800px; } }
   @media (min-width: 1300px) {
     .intro-image-absolute {
       bottom: -180px;
+      width: 60%;
       left: -40px;
       width: 850px; } }
 
