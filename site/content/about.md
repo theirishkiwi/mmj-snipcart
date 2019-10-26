@@ -1,5 +1,7 @@
 ---
 title: About
+image: "/uploads/marion_workshop.jpg"
+text: ''
 menu:
   main:
     weight: 5
