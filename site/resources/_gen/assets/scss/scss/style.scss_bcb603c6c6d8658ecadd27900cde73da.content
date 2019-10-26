@@ -4517,7 +4517,7 @@ ol {
     .intro-image-absolute {
       position: absolute;
       bottom: -50px;
-      left: -50px;
+      left: -10px;
       width: 700px; } }
   @media (min-width: 992px) {
     .intro-image-absolute {
@@ -4526,12 +4526,12 @@ ol {
       width: 800px; } }
   @media (min-width: 1300px) {
     .intro-image-absolute {
-      bottom: -100px;
-      left: -70px;
+      bottom: -180px;
+      left: -40px;
       width: 850px; } }
 
 .intro-image-hide-mobile {
-  display: none; }
+  width: 80%; }
   @media (min-width: 768px) {
     .intro-image-hide-mobile {
       display: block; } }

@@ -13,7 +13,7 @@
   @include media-breakpoint-up(md) {
     position: absolute;
     bottom: -50px;
-    left: -50px;
+    left: -10px;
     width: 700px;
   }
   @include media-breakpoint-up(lg) {
@@ -22,13 +22,14 @@
     width: 800px;
   }
   @include media-breakpoint-up(xl) {
-    bottom: -100px;
-    left: -70px;
+    bottom: -180px;
+    left: -40px;
     width: 850px;
   }
 }
 .intro-image-hide-mobile {
-  display: none;
+//  display: none;
+    width: 80%;
   @include media-breakpoint-up(md) {
     display: block;
   }
