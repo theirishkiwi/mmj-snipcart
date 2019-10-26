@@ -32,5 +32,6 @@
     width: 100%;
   @include media-breakpoint-up(md) {
     display: block;
+    width: 700px;
   }
 }
