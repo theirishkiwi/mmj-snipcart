@@ -30,8 +30,7 @@
 .intro-image-hide-mobile {
 //  display: none;
     width: 100%;
-  @include media-breakpoint-up(md) {
-    display: block;
-    width: 700px;
-  }
+//  @include media-breakpoint-up(md) {
+//    display: block;
+//  }
 }

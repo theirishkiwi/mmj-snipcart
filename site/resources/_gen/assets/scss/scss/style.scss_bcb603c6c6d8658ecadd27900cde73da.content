@@ -4532,10 +4532,6 @@ ol {
 
 .intro-image-hide-mobile {
   width: 100%; }
-  @media (min-width: 768px) {
-    .intro-image-hide-mobile {
-      display: block;
-      width: 700px; } }
 
 .strip {
   background: white;
