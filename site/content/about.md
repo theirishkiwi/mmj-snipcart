@@ -12,7 +12,7 @@ menu:
 
 ## About Me
 
-Originally from Sweden, I have lived in Scotland for 18 years.  I trained in Jewellery and Metalwork at Sir John Cass Faculty of Arts in London between 1993 and 1996. I then had my own jewellery business, “Mermaid’s Purse Jewellery”, in Ross shire on the West Coast of Scotland. After taking a break due to family commitments, I started making jewellery again.  I now live on the island of Stronsay, in Orkney, and work from my small workshop at home which overlooks the Auskerry sound and the North Sea. I have always found inspiration in the sea, shore and sky, which are constantly changing, providing me with endless design ideas.
+Originally from Sweden, I have lived in Scotland for 18 years.  I trained in Jewellery and Metalwork at Sir John Cass Faculty of Arts in London between 1993 and 1996. I then had my own jewellery business, “Mermaid’s Purse Jewellery”, in Ross-shire on the West Coast of Scotland. After taking a break due to family commitments, I started making jewellery again.  I now live on the island of Stronsay, in Orkney, and work from my small workshop at home which overlooks the Auskerry sound and the North Sea. I have always found inspiration in the sea, shore and sky, which are constantly changing, providing me with endless design ideas.
 
 I hope that my jewellery will inspire you to be drawn to the diverse and often dramatic maritime landscape that surrounds Orkney.
 
