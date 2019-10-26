@@ -8,7 +8,7 @@ menu:
     weight: 4
 
 ---
-![](/uploads/marion_workshop.jpg)
+![Marion's workshop](/uploads/marion_workshop.jpg)
 
 ## About Me
 
