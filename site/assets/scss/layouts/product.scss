@@ -122,3 +122,7 @@
 .menu li.over span {/* for touch devices */
 	left:0;
 }
+
+object{
+    pointer-events: none;
+}

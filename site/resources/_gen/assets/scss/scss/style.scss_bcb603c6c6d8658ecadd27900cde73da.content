@@ -4758,6 +4758,9 @@ ol {
   /* for touch devices */
   left: 0; }
 
+object {
+  pointer-events: none; }
+
 .header__cart .snipcart-summary {
   display: flex;
   justify-content: center;
