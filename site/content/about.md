@@ -1,7 +1,5 @@
 ---
 title: About
-image: "/uploads/marion_workshop.jpg"
-text: ''
 About_image: "/uploads/marion_workshop.jpg"
 menu:
   main:
