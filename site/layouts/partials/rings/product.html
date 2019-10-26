@@ -1,37 +1,24 @@
-<!--div class="container d-flex flex-wrap htcs-flex-container"-->
-    <!--div class="row"-->
-        <div class="col-md-3 col-sm-6">
-            <div class="product-grid">
-                <div class="product-image">
-                    <!--a href="">
-                        <img class="tnail pic-1" src="{{ .image }}" alt="">
-                        <img class="image pic-2" src="{{ .img_closeup }}" alt="">
-                    </a-->
-                    
-                    <ul class="menu">
-    		        <li> 
-                <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
-                <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span> </li>                   
-                     </ul>
-                          </div>
-                                <h2 class="product__name text-truncate">{{ .name }}</h2> 
-                                <!--p class="product__description">{{ .description }}</p-->
-                
+<div class="col-md-3 col-sm-6">
+   <div class="product-grid">
+       <div class="product-image">
+                 <ul class="menu">
+    		       <li> 
+                     <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
+                     <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span>
+                   </li>                   
+                 </ul>
+         </div>
+                            <h2 class="product__name text-truncate">{{ .name }}</h2> 
                 
                                <button
                                   class="snipcart-add-item buy-button"
                                   data-toggle="collapse" 
                                   data-target="#{{ .id }}">
-                                  Show Description
+                                  <h3>Show Description</h3>
                                 </button>
                                 <div id="{{ .id }}" class="collapse">
                                     <p class="product__description">{{ .description }}</p>
                                 </div>
-                
-                                 <!--a href="#demo" data-toggle="collapse">Show Description</a>
-                                 <div id="demo" class="collapse">
-                                  <p class="product__description">{{ .description }}</p>     
-                                 </div--> 
                 
                                  <div class="product__price">£{{ .price }}</div>
                                   <button
@@ -44,9 +31,7 @@
                                       data-item-price="{{ .price }}"
                                       data-item-url="{{ .product_url }}"
                                       data-item-description="{{ .description }}">
-                                      Add to cart
+                                      <h3>Add to cart</h3>
                                    </button>
-            </div>
-        </div>
-    <!--/div--> <!--row-->
-<!--/div--> <!--Container-->
+  </div>
+</div>
