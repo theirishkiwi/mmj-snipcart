@@ -4531,7 +4531,7 @@ ol {
       width: 850px; } }
 
 .intro-image-hide-mobile {
-  width: 80%; }
+  width: 100%; }
   @media (min-width: 768px) {
     .intro-image-hide-mobile {
       display: block; } }

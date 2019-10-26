@@ -29,7 +29,7 @@
 }
 .intro-image-hide-mobile {
 //  display: none;
-    width: 80%;
+    width: 100%;
   @include media-breakpoint-up(md) {
     display: block;
   }
