@@ -4513,6 +4513,9 @@ ol {
   width: 60%;
   padding: 0;
   margin-bottom: 30px; }
+  @media (min-width: 576px) {
+    .intro-image-absolute {
+      width: 100%; } }
   @media (min-width: 768px) {
     .intro-image-absolute {
       position: absolute;
@@ -4530,8 +4533,9 @@ ol {
       left: -40px;
       width: 850px; } }
 
-.intro-image-hide-mobile {
-  width: 100%; }
+@media (min-width: 768px) {
+  .intro-image-hide-mobile {
+    display: block; } }
 
 .strip {
   background: white;

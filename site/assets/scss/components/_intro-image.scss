@@ -9,6 +9,7 @@
   padding: 0;
   margin-bottom: 30px;
   @include media-breakpoint-up(sm) {
+    width: 100%;	  
   }
   @include media-breakpoint-up(md) {
     position: absolute;
@@ -29,8 +30,7 @@
 }
 .intro-image-hide-mobile {
 //  display: none;
-    width: 100%;
-//  @include media-breakpoint-up(md) {
-//    display: block;
-//  }
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
 }
