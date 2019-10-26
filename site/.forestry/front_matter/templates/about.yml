@@ -1,0 +1,13 @@
+---
+label: about
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: text
+  label: text
