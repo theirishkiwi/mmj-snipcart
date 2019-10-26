@@ -5,19 +5,23 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - name: image
   type: file
   config:
     maxSize: 250
-  label: image
+  config:
+    required: true
 - name: text
-  type: textarea
+- type: textarea
   default: ''
   config:
     required: false
     wysiwyg: false
     schema:
       format: markdown
+    required: true
   label: text
 pages:
 - site/content/about.md
