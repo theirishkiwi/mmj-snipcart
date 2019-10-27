@@ -1065,7 +1065,7 @@ $carousel-indicator-active-bg:       $white !default;
 $carousel-indicator-transition:      opacity .6s ease !default;
 
 $carousel-caption-width:             70% !default;
-$carousel-caption-color:             #ffffffd1 !default; //$white !default;
+$carousel-caption-color:             $white !default;
 
 $carousel-control-icon-width:        20px !default;
 
