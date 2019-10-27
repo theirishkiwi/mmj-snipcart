@@ -84,22 +84,22 @@
       aria-selected="false">Delivery</a>
   </li>
   <!--li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+    <a class="nav-link" id="contact-{{ .id }}" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
       aria-selected="false">Contact</a>
   </li-->
 </ul>
             
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-{{ .id }}"">
+  <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-{{ .id }}">
      {{ .description }}
   </div>
   
-  <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-{{ .id }}"">
+  <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-{{ .id }}">
     <a href="/info">See our Delivery page</a>
     for details on delivery costs and timescales.
   </div>
     
-  <!--div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+  <!--div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-{{ .id }}">
     Have any questions?
     Ask them<a href="/contact"> here.</a>
 </div-->
