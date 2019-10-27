@@ -64,18 +64,13 @@
           </div>
           <div class="col-lg-7">
             <h2 class="h2-responsive product-name">
-              <strong>Product Name</strong>
+              <strong>{{ .name }}</strong>
             </h2>
             <h4 class="h4-responsive">
               <span class="green-text">
                 <strong>
                   <div class="product__price">£{{ .price }}</div>
                 </strong>
-              </span>
-              <span class="grey-text">
-                <small>
-                  <s>$89</s>
-                </small>
               </span>
             </h4>
 
@@ -112,7 +107,7 @@
             <!-- Add to Cart -->
             <div class="card-body">
               <div class="row">
-                <div class="col-md-6">
+                <!--div class="col-md-6">
 
                   <select class="md-form mdb-select colorful-select dropdown-primary">
                     <option value="" disabled selected>Choose your option</option>
@@ -122,7 +117,7 @@
                   </select>
                   <label>Select color</label>
 
-                </div>
+                </div-->
                 <div class="col-md-6">
 
                   <select class="md-form mdb-select colorful-select dropdown-primary">
@@ -131,7 +126,7 @@
                     <option value="2">S</option>
                     <option value="3">L</option>
                   </select>
-                  <label>Select size</label>
+                  <label>Select ring size</label>
 
                 </div>
               </div>
