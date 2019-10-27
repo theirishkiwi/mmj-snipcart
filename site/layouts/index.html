@@ -25,9 +25,10 @@
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img
+        <!--img
           class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
-          src="{{ .Params.intro_image | relURL }}" />
+          src="{{ .Params.intro_image | relURL }}" /-->
+         {{ define carousel.html }}
       </div>
       {{ end }}
     </div>
