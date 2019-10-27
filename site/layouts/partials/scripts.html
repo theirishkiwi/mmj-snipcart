@@ -1,0 +1,17 @@
+  <!-- no-touch script -->  
+  <script>
+    $(document).ready(function() {
+        $('.menu li').bind('touchstart touchend', function(e) {
+            e.preventDefault();
+            $(this).toggleClass('over');
+    				$('body').removeClass('no-touch');
+        });
+    });
+ </script>
+  
+<!-- Material Select Initialization -->
+<script>
+$(document).ready(function() {
+$('.mdb-select').materialSelect();
+});
+</script>
