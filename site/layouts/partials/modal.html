@@ -68,7 +68,9 @@
             </h2>
             <h4 class="h4-responsive">
               <span class="green-text">
-                <strong>$49</strong>
+                <strong>
+                  <div class="product__price">£{{ .price }}</div>
+                </strong>
               </span>
               <span class="grey-text">
                 <small>
@@ -88,7 +90,7 @@
                   <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
                     aria-controls="collapseOne1">
                     <h5 class="mb-0">
-                      Collapsible Group Item #1 <i class="fas fa-angle-down rotate-icon"></i>
+                     Description<i class="fas fa-angle-down rotate-icon"></i>
                     </h5>
                   </a>
                 </div>
@@ -97,70 +99,12 @@
                 <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
                   data-parent="#accordionEx">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                    squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                      {{ .description }}
                   </div>
                 </div>
 
               </div>
               <!-- Accordion card -->
-
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingTwo2">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-                    aria-expanded="false" aria-controls="collapseTwo2">
-                    <h5 class="mb-0">
-                      Collapsible Group Item #2 <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                    squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingThree3">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-                    aria-expanded="false" aria-controls="collapseThree3">
-                    <h5 class="mb-0">
-                      Collapsible Group Item #3 <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                    squid. 3
-                    wolf moon officia aute,
-                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-
             </div>
             <!-- Accordion wrapper -->
 
