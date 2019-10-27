@@ -74,63 +74,33 @@
               </span>
             </h4>
 
-            <!--Accordion wrapper-->
-            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#desc" role="tab" aria-controls="desc"
+      aria-selected="true">Description</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="delivery-tab" data-toggle="tab" href="#delivery" role="tab" aria-controls="delivery"
+      aria-selected="false">Delivery</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+      aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+     {{ .description }}
+  </div>
+  <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
+  </div>
+    <a href="/info">See our Delivery page</a>
+    for details on delivery costs and timescales.
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingOne1">
-                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-                    aria-controls="collapseOne1">
-                    <h5 class="mb-0">
-                     Description
-                      <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                      {{ .description }}
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-              
-              
-              <!-- Accordion card -->
-              <div class="card">
-
-                <!-- Card header -->
-                <div class="card-header" role="tab" id="headingOne2">
-                  <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne2" aria-expanded="true"
-                    aria-controls="collapseOne1">
-                    <h5 class="mb-0">
-                     Delivery
-                      <i class="fas fa-angle-down rotate-icon"></i>
-                    </h5>
-                  </a>
-                </div>
-
-                <!-- Card body -->
-                <div id="collapseOne2" class="collapse show" role="tabpanel" aria-labelledby="headingOne2"
-                  data-parent="#accordionEx">
-                  <div class="card-body">
-                    <a href="/info">See our Delivery page</a>
-                    for details on delivery costs and timescales.
-                  </div>
-                </div>
-
-              </div>
-              <!-- Accordion card -->
-            </div>
-            
-            <!-- Accordion wrapper -->
+</div>
+   Have any question? Ask then <a href="/contact">here.</a>
+</div>
 
             <!-- Add to Cart -->
             <div class="card-body">
