@@ -76,7 +76,7 @@
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#desc" role="tab" aria-controls="desc"
+    <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description"
       aria-selected="true">Description</a>
   </li>
   <li class="nav-item">
@@ -88,18 +88,21 @@
       aria-selected="false">Contact</a>
   </li>
 </ul>
+            
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+  <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
      {{ .description }}
   </div>
+  
   <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
+    <a href="/info">See our Delivery page</a>
   </div>
+    
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
     <a href="/info">See our Delivery page</a>
     for details on delivery costs and timescales.
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-
 </div>
-   Have any question? Ask then <a href="/contact">here.</a>
+   
 </div>
 
             <!-- Add to Cart -->
