@@ -1,5 +1,5 @@
 ---
-title: About
+title: ''
 About_image: "/uploads/marion_workshop.jpg"
 menu:
   main:
