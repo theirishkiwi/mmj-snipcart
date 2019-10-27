@@ -52,16 +52,7 @@
 
   {{ partial "google-analytics.html" . }}
   
-  <!-- no-touch script -->  
-  <script>
-    $(document).ready(function() {
-        $('.menu li').bind('touchstart touchend', function(e) {
-            e.preventDefault();
-            $(this).toggleClass('over');
-    				$('body').removeClass('no-touch');
-        });
-    });
-    </script>
+  {{ partial "script.html" . }}
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
