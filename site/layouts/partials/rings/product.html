@@ -1,9 +1,5 @@
 <div class="col-md-3 col-sm-6">
    <div class="product-grid">
-    
-     {{ partial "modal.html" . }} 
-    
-    
        <div class="product-image">      
                     <ul class="menu">
     		          <li> 
@@ -13,6 +9,8 @@
                     </ul>
                           </div>
                                 <h2 class="product__name text-truncate">{{ .name }}</h2> 
+      
+                                   {{ partial "modal.html" . }} 
                 
                                 <button
                                    class="snipcart-add-item buy-button"     
