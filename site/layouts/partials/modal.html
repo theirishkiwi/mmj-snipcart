@@ -100,8 +100,8 @@
             
 <div class="tab-group-1">
   <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a data-target=".tab-group-1 #abc1" data-toggle="tab">Home</a></li>
-    <li><a data-target=".tab-group-1 #abc2" data-toggle="tab">About</a></li>
+    <li class="active"><a data-target="{{ .id }} #abc1" data-toggle="tab">Home</a></li>
+    <li><a data-target="{{ .id }} #abc2" data-toggle="tab">About</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="abc1">Home tab content</div>
@@ -111,8 +111,8 @@
 
 <div class="tab-group-2">
   <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a data-target=".tab-group-2 #abc1" data-toggle="tab">Home</a></li>
-    <li><a data-target=".tab-group-2 #abc2" data-toggle="tab">About</a></li>
+    <li class="active"><a data-target="{{ .id }} #abc1" data-toggle="tab">Home</a></li>
+    <li><a data-target="{{ .id }} #abc2" data-toggle="tab">About</a></li>
   </ul>
 
   <div class="tab-content">
