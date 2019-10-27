@@ -122,9 +122,16 @@
 
                   <select class="md-form mdb-select colorful-select dropdown-primary">
                     <option value="" disabled selected>Choose your option</option>
-                    <option value="1">XS</option>
-                    <option value="2">S</option>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
                     <option value="3">L</option>
+                    <option value="4">One Size</option>
+                    <option value="5">K</option>
+                    <option value="6">N</option>
+                    <option value="7">O</option>
+                    <option value="8">P</option>
+                    <option value="9">Q</option>
+                    <option value="10">R</option>
                   </select>
                   <label>Select ring size</label>
 
@@ -141,6 +148,9 @@
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
                 data-item-price="{{ .price }}"
+                data-item-custom1-name="Ring Size"
+                data-item-custom1-options="s|m|l|one size|k|n|o|p|q|r"
+                data-item-custom1-value="s"      
                 data-item-url="{{ .product_url }}"
                 data-item-description="{{ .description }}"
                 data-dismiss="modal">
