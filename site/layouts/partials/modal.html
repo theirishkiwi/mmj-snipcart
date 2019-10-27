@@ -76,35 +76,26 @@
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="desc-{{ .id }}" data-toggle="tab" href="#description" role="tab" aria-controls="description"
+    <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description"
       aria-selected="true">Description</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="delivery-{{ .id }}" data-toggle="tab" href="#delivery" role="tab" aria-controls="delivery"
+    <a class="nav-link" id="delivery-tab" data-toggle="tab" href="#delivery" role="tab" aria-controls="delivery"
       aria-selected="false">Delivery</a>
   </li>
-  <!--li class="nav-item">
-    <a class="nav-link" id="contact-{{ .id }}" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-      aria-selected="false">Contact</a>
-  </li-->
 </ul>
             
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-{{ .id }}">
+  <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
      {{ .description }}
   </div>
   
-  <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-{{ .id }}">
+  <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
     <a href="/info">See our Delivery page</a>
     for details on delivery costs and timescales.
   </div>
-    
-  <!--div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-{{ .id }}">
-    Have any questions?
-    Ask them<a href="/contact"> here.</a>
-</div-->
    
-</div>
+</div> <!-- Tab-content Ends-->
 
             <!-- Add to Cart -->
             <div class="card-body">
