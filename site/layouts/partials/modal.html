@@ -136,38 +136,28 @@
             <!-- Nav tabs -->
 <ul class="nav nav-tabs">
   <li class='nav-item'>
-    <a class='nav-link active' data-toggle='tab' href='#{{ .id }}1'>12</a>
+    <a class='nav-link active' data-toggle='tab' href='#{{ .id }}1'>Description</a>
   </li>
   <li class='nav-item'>
-    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>13</a>
-   </li>
-   <li class='nav-item'>
-     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}3'>16</a>
-   </li>
-   <li class='nav-item'>
-     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}4'>17</a>
-   </li>
-   <li class='nav-item'>
-     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}5'>18</a>
-   </li><li class='nav-item'>
-     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}6'>19</a>
-   </li>    
+    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Delivery</a>   
  </ul>
 
  <!-- Tab panes -->
    <div class="tab-content">
-     <div class='tab-pane container fade in show active' id='{{ .id }}1'>1</div>
-     <div class='tab-pane container fade' id='{{ .id }}2'>2</div>
-     <div class='tab-pane container fade' id='{{ .id }}3'>3</div>
-     <div class='tab-pane container fade' id='{{ .id }}4'>4</div>
-     <div class='tab-pane container fade' id='{{ .id }}5'>5</div>
-     <div class='tab-pane container fade' id='{{ .id }}6'>6</div>    
+     <div class='tab-pane container fade in show active' id='{{ .id }}1'>
+       {{ .description }}
+     </div>
+     <div class='tab-pane container fade' id='{{ .id }}2'>
+       <a href="/info">See our Delivery page</a>
+       for details on delivery costs and timescales.
+     </div> 
    </div>
            <!-- Nav tabs End --> 
 
             <!-- Add to Cart -->
             <div class="card-body">
               <div class="row">
+                
                 <!--div class="col-md-6">
                   <select class="md-form mdb-select colorful-select dropdown-primary">
                     <option value="" disabled selected>Choose your option</option>
@@ -193,7 +183,7 @@
                     <option value="9">Q</option>
                     <option value="10">R</option>
                   </select>
-                  <label>Select ring size</label>
+                    <label>Select ring size</label>
 
                 </div>
               </div>
