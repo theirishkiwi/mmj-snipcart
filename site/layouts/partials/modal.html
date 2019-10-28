@@ -66,15 +66,17 @@
             <h2 class="h2-responsive product-name">
               <strong>{{ .name }}</strong>
             </h2>
-         <div id="product__cart">   
-            <h4 class="h4-responsive">
-              <span class="green-text">
-                <strong>
-                  <div class="product__price">£{{ .price }}</div>
-                </strong>
-              </span>
-            </h4>
-            
+         <div id="product__cart"> 
+            <div class="product__price inner">
+              <h4 class="h4-responsive">
+                <span class="green-text">
+                  <strong>
+                    £{{ .price }}
+                  </strong>
+                </span>
+              </h4>
+            </div> 
+            <div class="inner" >
              <button
                 class="snipcart-add-item buy-button"
                 data-item-id="{{ .id }}"
@@ -88,7 +90,8 @@
                 data-dismiss="modal">
                   <h6>Add to bag</h6>
              </button>
-            </div>   
+             </div>
+           </div>   
    
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
