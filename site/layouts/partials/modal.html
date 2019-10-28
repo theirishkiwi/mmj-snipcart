@@ -139,7 +139,11 @@
     <a class='nav-link active' data-toggle='tab' href='#{{ .id }}1'>Description</a>
   </li>
   <li class='nav-item'>
-    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Delivery</a>   
+    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Delivery</a> 
+  </li> 
+  <li class='nav-item'>
+    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}3'>Ring Size</a> 
+  </li>
  </ul>
 
  <!-- Tab panes -->
@@ -150,6 +154,12 @@
      <div class='tab-pane container fade' id='{{ .id }}2'>
        <a href="/info">See our Delivery page</a>
        for details on delivery costs and timescales.
+     </div> 
+   </div>
+<!-- Sizes -->            
+   <div class='tab-pane container fade' id='{{ .id }}3'>
+     See Description for ring size options.
+     You can select your ring size once you've adding your ring to your shopping cart.
      </div> 
    </div>
            <!-- Nav tabs End --> 
@@ -168,7 +178,7 @@
                   <label>Select color</label>
                 </div-->
                 
-                <div class="col-md-6">
+                <!--div class="col-md-6">
 
                   <select class="md-form mdb-select colorful-select dropdown-primary">
                     <option value="" disabled selected>Choose size</option>
@@ -185,7 +195,7 @@
                   </select>
                     <label>Select ring size</label>
 
-                </div>
+                </div-->
               </div>
               <div class="text-center">
 
