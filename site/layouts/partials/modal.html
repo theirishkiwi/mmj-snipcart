@@ -73,6 +73,20 @@
                 </strong>
               </span>
             </h4>
+            
+             <button
+                class="snipcart-add-item buy-button"
+                data-item-id="{{ .id }}"
+                data-item-name="{{ .name }}"
+                data-item-price="{{ .price }}"
+                data-item-custom1-name="Ring Size"
+                data-item-custom1-options="s|m|l|one size|k|n|o|p|q|r"
+                data-item-custom1-value="s"      
+                data-item-url="{{ .product_url }}"
+                data-item-description="{{ .description }}"
+                data-dismiss="modal">
+                  <h6>Add to bag</h6>
+             </button>
    
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
@@ -80,10 +94,10 @@
     <a class='nav-link active' data-toggle='tab' href='#{{ .id }}1'>Description</a>
   </li>
   <li class='nav-item'>
-    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Delivery</a> 
+    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Sizes</a> 
   </li> 
   <li class='nav-item'>
-    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}3'>Ring Sizes</a> 
+    <a class='nav-link ' data-toggle='tab' href='#{{ .id }}3'>Delivery</a> 
   </li>
  </ul>
 
@@ -95,13 +109,13 @@
      </div>
 <!-- Delivery -->     
      <div class='tab-pane container fade' id='{{ .id }}2'>
-       <a href="/info">See our Delivery page</a>
-       for details on delivery costs and timescales.
+     See Description tab for ring size options.
+     Select your ring size after adding ring to cart.
      </div> 
 <!-- Sizes -->            
    <div class='tab-pane container fade' id='{{ .id }}3'>
-     See Description tab for ring size options.
-     Select your ring size after adding ring to cart. 
+       <a href="/info">See our Delivery page</a>
+       for details on delivery costs and timescales.
    </div>
 <!-- Nav tabs End --> 
      
@@ -134,6 +148,8 @@
               </div>
             </div>
             <!-- /.Add to Cart -->
+            
+            
           </div>
         </div>
       </div>
