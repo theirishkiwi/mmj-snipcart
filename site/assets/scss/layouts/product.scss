@@ -144,3 +144,16 @@ object{
 .carousel-thumbnails .carousel-indicators>li .active img {
  opacity:1
 }
+
+.outer {
+    width: 100px;
+    height:20px;
+    overflow: auto;
+    white-space:nowrap;
+}
+.inner {
+    background:red;
+    width:50px;
+    height:20px;
+    display:inline-block;
+}
