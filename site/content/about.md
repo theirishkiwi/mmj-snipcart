@@ -6,6 +6,7 @@ menu:
     name: About
     weight: 5
   footer:
+    name: About
     weight: 4
 
 ---
