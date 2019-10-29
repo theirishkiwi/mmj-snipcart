@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: true
 
 ## Unique Handmade Jewellery
 
-## An exclusive collection of handcrafted jewellery by Marion Miller in her workshop on Stronsay, Orkney.
+## An exclusive collection of handcrafted jewellery. Made by Marion Miller in her workshop on Stronsay, Orkney.
