@@ -3,6 +3,7 @@ title: ''
 About_image: "/uploads/marion_workshop.jpg"
 menu:
   main:
+    name: About
     weight: 5
   footer:
     weight: 4
