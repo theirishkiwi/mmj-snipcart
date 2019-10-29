@@ -9,7 +9,6 @@
   position: absolute;
   top: -3px;
   right: 2px;
-
   // Override <a>'s hover style
   @include hover {
     color: $close-color;
