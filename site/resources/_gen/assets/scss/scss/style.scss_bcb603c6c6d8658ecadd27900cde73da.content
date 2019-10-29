@@ -4791,6 +4791,11 @@ object {
   display: inline-block;
   padding: 0px 5px 0px 5px; }
 
+.close {
+  position: absolute;
+  top: -2px;
+  right: 0px; }
+
 .header__cart .snipcart-summary {
   display: flex;
   justify-content: center;

@@ -6,9 +6,6 @@
   color: $close-color;
   text-shadow: $close-text-shadow;
   opacity: .5;
-  position: absolute;
-  top: -3px;
-  right: 2px;
 
   // Override <a>'s hover style
   @include hover {
