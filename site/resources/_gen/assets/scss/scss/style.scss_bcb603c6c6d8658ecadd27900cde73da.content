@@ -4793,7 +4793,7 @@ object {
 
 .close {
   position: absolute;
-  top: -2px;
+  top: -3px;
   right: 0px; }
 
 .header__cart .snipcart-summary {
