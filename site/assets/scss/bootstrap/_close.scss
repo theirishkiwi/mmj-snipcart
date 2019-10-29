@@ -1,8 +1,5 @@
 .close {
   float: right;
-  position: absolute;
-  top: -3px;
-  right: 2px;
   @include font-size($close-font-size);
   font-weight: $close-font-weight;
   line-height: 1;
@@ -12,7 +9,7 @@
   position: absolute;
   top: -3px;
   right: 2px;
-  }
+
   // Override <a>'s hover style
   @include hover {
     color: $close-color;
