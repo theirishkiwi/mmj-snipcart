@@ -6,6 +6,7 @@ img_closeup = "/uploads/autumn-leaf-ring_closeup.jpg"
 name = "Autumn Leaf ring"
 price = "95.00"
 product_url = "https://mmjewellery.netlify.com/rings/"
+short-name = "Autumn Leaf ring"
 weight = "100"
 
 +++
