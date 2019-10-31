@@ -11,7 +11,7 @@ fields:
   type: text
   config:
     required: false
-  label: short-name
+  label: short name
   description: shorter name for image overlay
 - type: text
   name: name
