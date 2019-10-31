@@ -7,11 +7,11 @@ fields:
   label: id
   config:
     required: true
-- name: short_name
+- name: short-name
   type: text
   config:
     required: false
-  label: Short name
+  label: short-name
   description: shorter name for image overlay
 - type: text
   name: name
