@@ -46,7 +46,7 @@ fields:
     required: true
   default: https://mmjewellery.netlify.com/rings/
 pages:
-- site/content/rings/autumn-leaf-ring.md
 - site/content/rings/delicate-wave-ring.md
 - site/content/rings/delicate-wave-ring-1.md
 - site/content/rings/wave_ring.md
+- site/content/rings/autumn-leaf-ring.md
