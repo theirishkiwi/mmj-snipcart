@@ -7,7 +7,7 @@ fields:
   label: id
   config:
     required: true
-- name: short-name
+- name: short_name
   type: text
   config:
     required: false
