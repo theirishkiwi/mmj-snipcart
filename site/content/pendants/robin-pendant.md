@@ -6,5 +6,6 @@ img_closeup = "/uploads/robin-pendant-with-9-ct-gold-beak_closeup.jpg"
 name = "Robin Pendant with 9 ct gold beak"
 price = 65
 product_url = "https://mmjewellery.netlify.com/pendants/"
+short_name = "Robin Pendant"
 
 +++
