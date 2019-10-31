@@ -7,5 +7,6 @@ img_closeup = "/uploads/beach-combing-charm-bracelet-large-link_closeup.jpg"
 name = "Beach Combing Charm Bracelet (Large link)"
 price = "140.00"
 product_url = "https://mmjewellery.netlify.com/bracelets/"
+short_name = "Beach Charm Bracelet"
 
 +++
