@@ -10,7 +10,7 @@ fields:
 - name: short_name
   type: text
   config:
-    required: false
+    required: true
   label: short name
   description: max 3-4 words (~18 characters)
 - type: text
