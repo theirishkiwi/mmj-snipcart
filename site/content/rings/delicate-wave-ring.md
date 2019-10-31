@@ -6,6 +6,7 @@ img_closeup = "/uploads/delicate-wave-ring_closeup.jpg"
 name = "Delicate Wave Ring"
 price = 55
 product_url = "https://mmj.netlify.com/rings"
+short-name = "Delicate Wave Ring"
 weight = "100"
 
 +++
