@@ -17,6 +17,13 @@ fields:
   name: price
   config:
     required: true
+- name: weight
+  type: text
+  config:
+    required: true
+  label: weight
+  description: weight of item in grams
+  default: '100'
 - type: textarea
   name: description
   label: description
