@@ -7,6 +7,7 @@ name = "Delicate Wave Ring"
 price = 55
 product_url = "https://mmj.netlify.com/rings"
 short-name = "Delicate Wave Ring"
+short_name = "Delicate Wave Ring"
 weight = "100"
 
 +++
