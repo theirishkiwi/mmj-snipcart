@@ -6,5 +6,6 @@ img_closeup = "/uploads/moon-gazing-hare-pendant_closeup.jpg"
 name = "Moon Gazing Hare Pendant"
 price = 99
 product_url = "https://mmjewellery.netlify.com/pendants/"
+short_name = "Moon Gazing Hare"
 
 +++
