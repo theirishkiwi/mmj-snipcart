@@ -6,5 +6,6 @@ img_closeup = "/uploads/mini-grotie-buckie-cowrie-ear-studs_closeup.jpg"
 name = "Mini Grotie Buckie (Cowrie) Ear studs"
 price = "36.50"
 product_url = "https://mmjewellery.netlify.com/earrings/"
+short_name = "Grotie Buckie Ear studs"
 
 +++
