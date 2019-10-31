@@ -7,6 +7,7 @@ name = "Broad Wave Ring with Fine Blue Moonstone and Topaz"
 price = "110.00"
 product_url = "https://mmjewellery.netlify.com/rings/"
 short-name = "Broad Wave Ring"
+short_name = "Broad Wave Ring"
 weight = "100"
 
 +++
