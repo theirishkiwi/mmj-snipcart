@@ -4784,8 +4784,7 @@ object {
   opacity: 1; }
 
 .outer {
-  white-space: nowrap;
-  padding-bottom: 20px; }
+  white-space: nowrap; }
 
 .inner {
   display: inline-block;
