@@ -6,5 +6,6 @@ img_closeup = "/uploads/star-gazing-pendant_closeup.jpg"
 name = "Beach Combing Pendant"
 price = 79
 product_url = "https://mmjewellery.netlify.com/pendants/"
+short_name = "Beach Combing"
 
 +++

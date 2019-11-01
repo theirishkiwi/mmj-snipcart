@@ -7,6 +7,12 @@ fields:
   label: id
   config:
     required: true
+- name: short_name
+  type: text
+  config:
+    required: true
+  label: short name
+  description: max 3-4 words (~18 characters)
 - type: text
   name: name
   label: name
@@ -42,6 +48,6 @@ fields:
   default: https://mmjewellery.netlify.com/earrings/
 pages:
 - site/content/earrings/beach-combing-shells.md
+- site/content/earrings/owl_studs.md
 - site/content/earrings/stronsay-beach-combing-limpet-studs.md
 - site/content/earrings/mini-grotie-buckie-studs.md
-- site/content/earrings/owl_studs.md

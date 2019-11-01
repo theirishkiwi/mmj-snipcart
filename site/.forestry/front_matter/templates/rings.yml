@@ -7,6 +7,12 @@ fields:
   label: id
   config:
     required: true
+- name: short_name
+  type: text
+  config:
+    required: true
+  label: short name
+  description: max 3-4 words (~18 characters)
 - type: text
   name: name
   label: name
@@ -17,6 +23,13 @@ fields:
   name: price
   config:
     required: true
+- name: weight
+  type: text
+  config:
+    required: true
+  label: weight
+  description: weight of item in grams
+  default: '100'
 - type: textarea
   name: description
   label: description
@@ -39,7 +52,7 @@ fields:
     required: true
   default: https://mmjewellery.netlify.com/rings/
 pages:
-- site/content/rings/wave_ring.md
 - site/content/rings/autumn-leaf-ring.md
-- site/content/rings/delicate-wave-ring.md
 - site/content/rings/delicate-wave-ring-1.md
+- site/content/rings/delicate-wave-ring.md
+- site/content/rings/wave_ring.md

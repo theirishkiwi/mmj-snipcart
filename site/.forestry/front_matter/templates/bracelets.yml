@@ -7,6 +7,12 @@ fields:
   label: id
   config:
     required: true
+- name: short_name
+  type: text
+  config:
+    required: true
+  description: max 3-4 words (~18 characters)
+  label: short name
 - type: text
   name: name
   label: name

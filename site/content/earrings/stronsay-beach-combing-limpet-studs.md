@@ -6,5 +6,6 @@ img_closeup = "/uploads/stronsay-beach-combing-limpet-ear-studs_closeup.jpg"
 name = "Stronsay Beach Combing- Limpet Ear Studs"
 price = 45
 product_url = "https://mmjewellery.netlify.com/earrings/"
+short_name = "Limpet Ear Studs"
 
 +++

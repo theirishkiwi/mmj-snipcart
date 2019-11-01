@@ -6,5 +6,8 @@ img_closeup = "/uploads/delicate-wave-ring-blue-topaz_closeup.jpg"
 name = "Delicate Wave Ring with Gem stone"
 price = 84
 product_url = "https://mmj.netlify.com/rings"
+short-name = "Wave Ring with Gem"
+short_name = "Delicate Wave Ring"
+weight = "100"
 
 +++
