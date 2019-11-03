@@ -21,7 +21,7 @@
 
 
                 
-                                 <!--div class="product__price">£{{ .price }}</div>
+                                 <div class="product__price">£{{ .price }}</div>
                                   <button
                                       class="snipcart-add-item buy-button"
                                       data-item-id="{{ .id }}"
