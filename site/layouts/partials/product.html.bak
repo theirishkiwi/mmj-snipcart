@@ -1,0 +1,36 @@
+<div class="col-md-3 col-sm-6">
+   <div class="product-grid">
+       <div class="product-image">      
+                    <ul class="menu">
+    		          <li> 
+                         <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
+                         <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span>
+                      </li>                   
+                    </ul>
+                          </div>
+                                <h2 class="product__name text-truncate">{{ .short_name }}</h2> 
+      
+                                      {{ partial "modal.html" . }} 
+                
+                                <!--button
+                                   class="snipcart-add-item buy-button"     
+                                   data-toggle="collapse" 
+                                   data-target="#{{ .id }}">
+                                    <h6>More...</h6>
+                                </button>
+                                <div id="{{ .id }}" class="collapse">
+                                    <p class="product__description">{{ .description }}</p>
+                                </div>
+                
+                                 <div class="product__price">£{{ .price }}</div>
+                                  <button
+                                      class="snipcart-add-item buy-button"
+                                      data-item-id="{{ .id }}"
+                                      data-item-name="{{ .name }}"
+                                      data-item-price="{{ .price }}"
+                                      data-item-url="{{ .product_url }}"
+                                      data-item-description="{{ .description }}">
+                                      <h6>Add to bag</h6>
+                                   </button-->
+  </div>
+</div>

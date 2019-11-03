@@ -1,36 +1,36 @@
-<div class="col-md-3 col-sm-6">
-   <div class="product-grid">
-       <div class="product-image">      
-                    <ul class="menu">
-    		          <li> 
-                         <span class="tnail"><img class="" src="{{ .image }}" alt=""></span>
-                         <span class="image"><img class="" src="{{ .img_closeup }}" alt=""></span>
-                      </li>                   
+
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="{{ .image }}">
+                        <img class="pic-2" src="{{ .img_closeup }}">                        
+                    </a>
+                    <ul class="social">
+                        <li>
+                                <a href="" data-tip="Quick View">
+                                        <i class="fa fa-search"></i>
+                                </a>
+                            </li>
+                        <li>
+                                <a href="" data-tip="Add to Cart">
+                                        <i class="fa fa-shopping-cart"></i>
+                                </a>
+                            </li>
                     </ul>
-                          </div>
-                                <h2 class="product__name text-truncate">{{ .short_name }}</h2> 
-      
-                                      {{ partial "modal.html" . }} 
-                
-                                <!--button
-                                   class="snipcart-add-item buy-button"     
-                                   data-toggle="collapse" 
-                                   data-target="#{{ .id }}">
-                                    <h6>More...</h6>
-                                </button>
-                                <div id="{{ .id }}" class="collapse">
-                                    <p class="product__description">{{ .description }}</p>
-                                </div>
-                
-                                 <div class="product__price">£{{ .price }}</div>
-                                  <button
-                                      class="snipcart-add-item buy-button"
-                                      data-item-id="{{ .id }}"
-                                      data-item-name="{{ .name }}"
-                                      data-item-price="{{ .price }}"
-                                      data-item-url="{{ .product_url }}"
-                                      data-item-description="{{ .description }}">
-                                      <h6>Add to bag</h6>
-                                   </button-->
-  </div>
-</div>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">{{ .short_name }}</a></h3>
+                    <div class="price">£{{ .price }}
+                        <span>{{ .full_price }}</span>
+                    </div>
+                   <div class="">     
+                      
+                      {{ partial "rings/modal.html" . }} 
+                   
+                  </div>
+                </div>
+              </div>   
+            </div>        
