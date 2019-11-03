@@ -5,14 +5,24 @@ h3.h3{
   font-size:1.7em;
 }
 
-/**** Product Grid ****/
+/********** Product Grid **********/
+
+//.product-grid{
+//  font-family:Raleway,sans-serif;
+//  text-align:center;
+// padding:0 0 72px;
+//  border:1px solid rgba(0,0,0,.1);
+//  overflow:hidden;
+//  position:relative;
+//  z-index:1;
+//}
+
 .product-grid{
   font-family:Raleway,sans-serif;
   text-align:center;
-  padding:0 0 72px;
+  padding:0 0 15px;
   border:1px solid rgba(0,0,0,.1);
   overflow:hidden;
-  position:relative;
   z-index:1;
 }
 .product-grid .product-image{
