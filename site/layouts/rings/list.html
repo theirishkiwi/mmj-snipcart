@@ -5,7 +5,8 @@
 {{ define "main" }}
 <div class="intro">
   <div class="container">
-
+       <div class="row">
+         
           <main class="products d-flex flex-wrap htcs-flex-container">
             {{ range where .Site.RegularPages "Section" "rings"}}
               {{ partial "rings/product.html" .Params }}
@@ -20,5 +21,6 @@
           src="{{ .Params.intro_image | relURL }}" />
       {{ end }}
   </div>
+    </div> <!-- row- ->
 </div> <!-- Container -->
 {{ end }}
