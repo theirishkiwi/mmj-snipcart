@@ -125,6 +125,17 @@ opacity:0;transform:translateX(-50%);position:absolute;left:50%;
   top:10px;
   left:0;
 }
+.product-grid .product-discount-label,.product-grid .product-sale-label{
+  color:#fff;
+  background-color:#e60c0c;
+  font-size:12px;
+  text-transform:uppercase;
+  padding:2px 7px;
+  display:block;
+  position:absolute;
+  top:10px;
+  left:0;
+}
 .product-grid .product-discount-label{
   background-color:#333;
   left:auto;

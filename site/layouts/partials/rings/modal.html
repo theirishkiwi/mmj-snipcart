@@ -107,8 +107,13 @@
             <div class="product__price inner">
               <h4 class="h4-responsive">
                 <span class="green-text">
-                  <strong>
-                    £{{ .price }}
+                  <strong class="price">£
+	          {{ if eq .on_sale true }}
+                     {{ .sale_price }}
+		     <span>£{{ .price }}</span>
+                  {{ else }}
+                     {{ .price }}
+		  {{ end }}   
                   </strong>
                 </span>
               </h4>
@@ -118,7 +123,11 @@
                 class="snipcart-add-item buy-button btn btn-success"
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
+	     {{ if eq .on_sale true }}
+                data-item-price="{{ .sale_price }}"
+             {{ else }}
                 data-item-price="{{ .price }}"
+	     {{ end }}
                 data-item-custom1-name="Ring Size"
                 data-item-custom1-options="s|m|l|one size|k|n|o|p|q|r"
                 data-item-custom1-value="s"      
