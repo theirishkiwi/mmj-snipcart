@@ -23,6 +23,10 @@ fields:
   name: price
   config:
     required: true
+- name: new_item
+  type: boolean
+  label: new item
+  description: When enabled will show item as 'new'
 - name: on_sale
   type: boolean
   label: on sale
