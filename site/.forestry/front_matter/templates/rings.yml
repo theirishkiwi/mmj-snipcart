@@ -26,12 +26,13 @@ fields:
 - name: on_sale
   type: boolean
   label: on sale
+  description: Only set when item's on sale
 - name: sale_price
   type: text
   config:
     required: false
   label: Sale price
-  description: Only set if item on sale
+  description: 'Only active when ''on_sale'' toglle is enabled '
 - name: weight
   type: text
   config:
