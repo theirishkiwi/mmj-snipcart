@@ -34,7 +34,6 @@ fields:
   label: on sale
   description: Only set when item's on sale
   showOnly:
-    field: on_sale
     value: true
 - name: discount
   type: text
