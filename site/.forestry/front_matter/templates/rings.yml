@@ -28,8 +28,7 @@ fields:
   label: new item
   description: When enabled will show item as 'new'
   showOnly:
-    field: new_item
-    value: true
+    value: false
 - name: on_sale
   type: boolean
   label: on sale
