@@ -27,10 +27,16 @@ fields:
   type: boolean
   label: new item
   description: When enabled will show item as 'new'
+  showOnly:
+    field: new_item
+    value: true
 - name: on_sale
   type: boolean
   label: on sale
   description: Only set when item's on sale
+  showOnly:
+    field: on_sale
+    value: true
 - name: discount
   type: text
   config:
