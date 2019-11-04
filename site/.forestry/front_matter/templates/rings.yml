@@ -26,7 +26,7 @@ fields:
 - name: new_item
   type: boolean
   label: new item
-  description: 'Enable to highlight a ''new_item'' '
+  description: Enable to highlight a new item
   showOnly:
     value: false
 - name: on_sale
