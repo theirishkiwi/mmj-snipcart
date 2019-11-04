@@ -23,6 +23,12 @@ fields:
   name: price
   config:
     required: true
+- name: sale_price
+  type: text
+  config:
+    required: false
+  label: Sale price
+  description: Only set if item on sale
 - name: weight
   type: text
   config:
