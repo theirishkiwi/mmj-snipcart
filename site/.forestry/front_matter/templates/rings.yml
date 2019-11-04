@@ -23,6 +23,9 @@ fields:
   name: price
   config:
     required: true
+- name: on_sale
+  type: boolean
+  label: on sale
 - name: sale_price
   type: text
   config:
