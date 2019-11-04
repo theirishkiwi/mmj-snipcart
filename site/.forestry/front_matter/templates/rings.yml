@@ -31,6 +31,12 @@ fields:
   type: boolean
   label: on sale
   description: Only set when item's on sale
+- name: discount
+  type: text
+  config:
+    required: false
+  label: discount (%)
+  description: used when item is marked 'on sale'
 - name: sale_price
   type: text
   config:
