@@ -26,7 +26,7 @@ fields:
 - name: new_item
   type: boolean
   label: new item
-  description: When enabled will show item as 'new'
+  description: Enable to highlight a new item
   showOnly:
     value: false
 - name: on_sale
@@ -40,13 +40,13 @@ fields:
   config:
     required: false
   label: discount (%)
-  description: used when item is marked 'on sale'
+  description: 'Active when ''on_sale'' toggle is enabled '
 - name: sale_price
   type: text
   config:
     required: false
   label: Sale price
-  description: 'Only active when ''on_sale'' toglle is enabled '
+  description: 'Active when ''on_sale'' toggle is enabled '
 - name: weight
   type: text
   config:
