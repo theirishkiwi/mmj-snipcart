@@ -26,7 +26,7 @@ fields:
 - name: new_item
   type: boolean
   label: new item
-  description: When enabled will show item as 'new'
+  description: 'Active when ''new_item'' toggle is enabled '
   showOnly:
     value: false
 - name: on_sale
