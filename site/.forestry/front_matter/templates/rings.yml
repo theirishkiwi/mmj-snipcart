@@ -46,7 +46,7 @@ fields:
   config:
     required: false
   label: Sale price
-  description: 'Only active when ''on_sale'' toglle is enabled '
+  description: 'Active when ''on_sale'' toggle is enabled '
 - name: weight
   type: text
   config:
