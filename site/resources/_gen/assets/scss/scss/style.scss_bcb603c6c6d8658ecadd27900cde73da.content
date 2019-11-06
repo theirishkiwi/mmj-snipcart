@@ -4800,6 +4800,9 @@ object {
   justify-content: center;
   align-items: center; }
 
+.snipcart-modal__container {
+  z-index: 35 !important; }
+
 h3.h3 {
   text-align: center;
   margin: 1em;
