@@ -47,13 +47,6 @@ fields:
     required: false
   label: Sale price
   description: 'Active when ''on_sale'' toggle is enabled '
-- name: weight
-  type: text
-  config:
-    required: true
-  label: weight
-  description: weight of item in grams
-  default: '100'
 - type: textarea
   name: description
   label: description
