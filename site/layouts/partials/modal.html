@@ -73,9 +73,9 @@
   <li class='nav-item'>
     <a class='nav-link active' data-toggle='tab' href='#{{ .id }}1'>Description</a>
   </li>
-  <!--li class='nav-item'>
+  <li class='nav-item'>
     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}2'>Sizes</a> 
-  </li--> 
+  </li> 
   <li class='nav-item'>
     <a class='nav-link ' data-toggle='tab' href='#{{ .id }}3'>Delivery</a> 
   </li>
@@ -87,11 +87,11 @@
      <div class='tab-pane container fade in show active' id='{{ .id }}1'>
        {{ .description }}
      </div>
-<!-- Sizes     
+<!-- Sizes -->     
      <div class='tab-pane container fade' id='{{ .id }}2'>
-     See Description tab for ring size options.
+     See 'Description tab' for ring size options.
      Select your ring size after adding ring to cart.
-     </div> -->
+     </div> 
 <!-- Delivery -->            
    <div class='tab-pane container fade' id='{{ .id }}3'>
        <a href="/info">See our Delivery page</a>
@@ -107,8 +107,13 @@
             <div class="product__price inner">
               <h4 class="h4-responsive">
                 <span class="green-text">
-                  <strong>
-                    £{{ .price }}
+                  <strong class="price">£
+	          {{ if eq .on_sale true }}
+                     {{ .sale_price }}
+		     <span>£{{ .price }}</span>
+                  {{ else }}
+                     {{ .price }}
+		  {{ end }}   
                   </strong>
                 </span>
               </h4>
@@ -118,9 +123,14 @@
                 class="snipcart-add-item buy-button btn btn-success"
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
-                data-item-price="{{ .price }}"    
+	     {{ if eq .on_sale true }}
+                data-item-price="{{ .sale_price }}"
+             {{ else }}
+                data-item-price="{{ .price }}"
+	     {{ end }}      
                 data-item-url="{{ .product_url }}"
                 data-item-description="{{ .description }}"
+                data-item-weight="{{ .price }}"      
                 data-dismiss="modal">
                   <h6>Add to bag</h6>
              </button>
