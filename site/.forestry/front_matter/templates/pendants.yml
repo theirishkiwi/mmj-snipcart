@@ -23,6 +23,23 @@ fields:
   name: price
   config:
     required: true
+- name: new_item
+  type: boolean
+  label: new item
+- name: on_sale
+  type: boolean
+  label: on sale
+- name: sale_price
+  type: text
+  config:
+    required: false
+  label: sale price
+- name: discount
+  type: text
+  config:
+    required: false
+  label: discount (%)
+  description: percentage discount
 - type: textarea
   name: description
   label: description
@@ -46,23 +63,6 @@ fields:
   config:
     required: true
   default: https://mmjewellery.netlify.com/pendants/
-- name: on_sale
-  type: boolean
-  label: on sale
-- name: new_item
-  type: boolean
-  label: new item
-- name: discount
-  type: text
-  config:
-    required: false
-  label: discount (%)
-  description: percentage discount
-- name: sale_price
-  type: text
-  config:
-    required: false
-  label: sale price
 pages:
 - site/content/pendants/beach_combing.md
 - site/content/pendants/moongazing.md
