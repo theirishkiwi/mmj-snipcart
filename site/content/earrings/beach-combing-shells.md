@@ -5,6 +5,7 @@ image = "/uploads/beach-combing-ear-studs-textured-shell.jpg"
 img_closeup = "/uploads/beach-combing-ear-studs-textured-shell_closeup.jpg"
 name = "Beach Combing Ear Studs Textured Shell"
 price = "39.50"
+data-item-weight="50"
 product_url = "https://mmjewellery.netlify.com/earrings/"
 short_name = "Textured Shell Earrings"
 
