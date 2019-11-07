@@ -4,23 +4,34 @@
                 <div class="product-image">
                     <a href="#">
                         <img class="pic-1" src="{{ .image }}">
-                        <img class="pic-2" src="{{ .img_closeup }}">                        
+                        <img class="pic-2" src="{{ .img_closeup }}">
                     </a>
-                    <!--ul class="social">
-                        <li><a href="" data-tip="Quick View"> <i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                    </ul-->
-                    <span class="product-new-label">Sale</span>
-                    <span class="product-discount-label">20%</span>
+                    <ul class="social">
+			<!--li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li-->
+                        <!--li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li-->
+                    </ul>
+		    {{ if eq .on_sale true }}
+		        <span class="product-sale-label">Sale</span>
+		        <span class="product-discount-label">-{{ .discount }}%</span>
+		    {{ else if eq .new_item true }}
+		        <span class="product-new-label">New</span>
+		    {{ else }}
+		    {{ end }}   
                 </div>
                 <div class="product-content">
                     <h3 class="title"><a href="#">{{ .short_name }}</a></h3>
-                    <div class="price">£{{ .price }}
-                        <span>{{ .full_price }}</span>
+                    <div class="price">£
+
+		    {{ if eq .on_sale true }}
+                        {{ .sale_price }}
+                        <span>£{{ .price }}</span>
+                    {{ else }}
+                        {{ .price }}
+                    {{ end }}
                     </div>
-                   <div class="">     
+                  <div class="">
                       
-                      {{ partial "rings/modal.html" . }} 
+                      {{ partial "modal.html" . }} 
                    
                   </div>
                 </div>
