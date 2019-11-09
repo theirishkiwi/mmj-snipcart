@@ -54,6 +54,12 @@ fields:
   type: boolean
   label: on sale
   description: Enable to highlight an item on sale
+- name: discount
+  type: text
+  config:
+    required: false
+  label: discount (%)
+  description: percentage discount
 pages:
 - site/content/earrings/stronsay-beach-combing-limpet-studs.md
 - site/content/earrings/owl_studs.md
