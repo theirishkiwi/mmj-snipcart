@@ -60,6 +60,11 @@ fields:
     required: false
   label: discount (%)
   description: percentage discount
+- name: sale_price
+  type: text
+  config:
+    required: false
+  label: sale price
 pages:
 - site/content/pendants/puffin-moon-pendant.md
 - site/content/pendants/stronsay-island-pendant.md
