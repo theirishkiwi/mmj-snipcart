@@ -123,7 +123,7 @@
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
 	     {{ if eq .on_sale true }}
-                data-item-price="{{ sub (mul (div .discount 100.0) .price ) .price}}% done"
+                data-item-price="{{ sub (mul (div .discount 100.0) .price ) .price}}"
              {{ else }}
                 data-item-price="{{ .price }}"
 	     {{ end }}
