@@ -46,6 +46,14 @@ fields:
   config:
     required: true
   default: https://mmjewellery.netlify.com/earrings/
+- name: new_item
+  type: boolean
+  label: new item
+  description: Enable to highlight a new item
+- name: on_sale
+  type: boolean
+  label: on sale
+  description: Enable to highlight an item on sale
 pages:
 - site/content/earrings/stronsay-beach-combing-limpet-studs.md
 - site/content/earrings/owl_studs.md
