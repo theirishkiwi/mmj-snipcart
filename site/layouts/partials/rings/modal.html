@@ -108,8 +108,7 @@
                 <span class="green-text">
                   <strong class="price">£
 	          {{ if eq .on_sale true }}
-               {{$sale_price := {{ sub (mul (div .discount 100.0) .price ) .price}}%done}}
-                     {{ $sale_price }}
+		      {{ .sale_price }}
 		     <span>£{{ .price }}</span>
                   {{ else }}
                      {{ .price }}
