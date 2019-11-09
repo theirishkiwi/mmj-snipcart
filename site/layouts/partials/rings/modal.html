@@ -108,7 +108,8 @@
                 <span class="green-text">
                   <strong class="price">£
 	          {{ if eq .on_sale true }}
-                     {{ .sale_price }}
+               {{$sale_price := {{ sub (mul (div .discount 100.0) .price ) .price}}%done}}
+                     {{ $sale_price }}
 		     <span>£{{ .price }}</span>
                   {{ else }}
                      {{ .price }}
@@ -123,7 +124,7 @@
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
 	     {{ if eq .on_sale true }}
-                data-item-price="{{ sub (mul (div .discount 100.0) .price ) .price}}"
+                data-item-price="{{ .sale_price }}"
              {{ else }}
                 data-item-price="{{ .price }}"
 	     {{ end }}
