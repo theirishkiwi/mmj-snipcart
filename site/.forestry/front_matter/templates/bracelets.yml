@@ -46,6 +46,20 @@ fields:
   config:
     required: true
   default: https://mmjewellery.netlify.com/bracelets/
+- name: on_sale
+  type: boolean
+  label: on sale
+  description: Enable to highlight an item on sale
+- name: new_item
+  type: boolean
+  label: new item
+  description: Enable to highlight a new item
+- name: discount
+  type: text
+  config:
+    required: false
+  label: discount (%)
+  description: percentage discount
 pages:
 - site/content/pendants/puffin-moon-pendant.md
 - site/content/pendants/stronsay-island-pendant.md
