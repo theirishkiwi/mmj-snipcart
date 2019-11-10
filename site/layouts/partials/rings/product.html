@@ -23,8 +23,7 @@
                     <div class="price">£
 
 		    {{ if eq .on_sale true }}
-Discount {{ .discount }}    price {{ .Params.price }}       
-{{ $myPrice := 95 }} 
+{{ $myPrice := 96 }} 
 {{ $disc := 20 }}
 {{ $calc1 := mul (div $disc 100.0) $myprice }}
 {{ $salePrice := sub $myPrice $calc1 }}
