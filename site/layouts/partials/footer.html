@@ -38,7 +38,8 @@
     </div>
   </div>
 </div>
-{{ $myprice := 95 }} 
-{{ $disc := 20 }} 
+{{ $myPrice := 95 }} 
+{{ $disc := 20 }}
 {{ $calc1 := mul (div $disc 100.0) $myprice }}
-{{ sub $myprice $calc1 }}
+{{ $salePrice := sub $myPrice $calc1 }}
+{{ $salePrice }} 
