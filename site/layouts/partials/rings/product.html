@@ -25,8 +25,8 @@
 		    {{ if eq .on_sale true }}
 			<!-- {{ $myPrice := ".Params.price" }} -->
 			<!-- {{ $disc := ".Params.discount" }} -->
-			{{ $calc1 := mul (div $.Param "fields.discount" 100.0) $.Param "fields.price" }}
-			{{ $salePrice := sub $.Param "fields.price" $calc1 }}
+			{{ $calc1 := mul (div $.Param ".discount" 100.0) $.Param ".price" }}
+			{{ $salePrice := sub $.Param ".price" $calc1 }}
 			{{ $salePrice }} 
 			<!--{{ .sale_price }}-->
                         <span>£{{ .price }}</span>
