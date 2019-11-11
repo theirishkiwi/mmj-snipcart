@@ -23,10 +23,10 @@
                     <div class="price">£
 
 		    {{ if eq .on_sale true }}
-			{{ $myPrice := ".Params.price" }}
-			{{ $disc := ".Params.discount" }}
-			{{ $calc1 := mul (div $disc 100.0) $myPrice }}
-			{{ $salePrice := sub $myPrice $calc1 }}
+			<!-- {{ $myPrice := ".Params.price" }} -->
+			<!-- {{ $disc := ".Params.discount" }} -->
+			{{ $calc1 := mul (div $.Param "fields.discount" 100.0) $.Param "fields.price" }}
+			{{ $salePrice := sub $.Param "fields.price" $calc1 }}
 			{{ $salePrice }} 
 			<!--{{ .sale_price }}-->
                         <span>£{{ .price }}</span>
