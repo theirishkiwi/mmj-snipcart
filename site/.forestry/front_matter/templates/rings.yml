@@ -18,6 +18,14 @@ fields:
   label: name
   config:
     required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+    required: true
 - type: number
   label: price
   name: price
@@ -41,14 +49,6 @@ fields:
     required: false
   label: discount (%)
   description: 'Active when ''on_sale'' toggle is enabled '
-- type: textarea
-  name: description
-  label: description
-  config:
-    wysiwyg: false
-    schema:
-      format: markdown
-    required: true
 - type: file
   name: image
   label: image
