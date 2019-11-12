@@ -9,7 +9,6 @@ new_item = false
 on_sale = true
 price = 95
 product_url = "https://mmjewellery.netlify.com/rings/"
-sale_price = nil
 short-name = "Autumn Leaf ring"
 short_name = "Autumn Leaf ring"
 weight = 100
