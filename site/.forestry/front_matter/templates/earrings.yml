@@ -39,11 +39,6 @@ fields:
   type: boolean
   label: on sale
   description: Enable to highlight an item on sale
-- name: sale_price
-  type: text
-  config:
-    required: false
-  label: sale price
 - name: discount
   type: text
   config:
