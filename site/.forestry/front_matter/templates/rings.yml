@@ -42,7 +42,7 @@ fields:
   label: discount (%)
   description: 'Active when ''on_sale'' toggle is enabled '
 - name: sale_price
-  type: text
+  type: number
   config:
     required: false
   label: Sale price
