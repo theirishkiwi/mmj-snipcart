@@ -9,7 +9,6 @@ new_item = true
 on_sale = false
 price = "110.00"
 product_url = "https://mmjewellery.netlify.com/rings/"
-sale_price = "88"
 short-name = "Broad Wave Ring"
 short_name = "Broad Wave Ring"
 weight = "100"
