@@ -21,19 +21,16 @@
                 <div class="product-content">
                     <h3 class="title"><a href="#">{{ .short_name }}</a></h3>
                     <div class="price">£
-
+			    
 		    {{ if eq .on_sale true }}
-			<!-- {{ $myPrice := ".Params.price" }} -->
-			{{ .Params.price }}
-			<!-- {{ $disc := ".Params.discount" }} -->
-			{{ $calc1 := mul (div .discount 100.0) .price }}
-			{{ $salePrice := sub .price $calc1 }}
+			{{ $calc := mul (div .discount 100.0) .price }}
+			{{ $salePrice := sub .price $calc }}
 			{{ $salePrice }} 
-			<!--{{ .sale_price }}-->
                         <span>£{{ .price }}</span>
                     {{ else }}
                         {{ .price }}
                     {{ end }}
+			    
                     </div>
                   <div class="">
                       
