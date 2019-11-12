@@ -9,9 +9,8 @@ new_item = true
 on_sale = false
 price = 84
 product_url = "https://mmj.netlify.com/rings"
-sale_price = ""
 short-name = "Wave Ring with Gem"
 short_name = "Delicate Wave Ring"
-weight = "100"
+weight = 100
 
 +++
