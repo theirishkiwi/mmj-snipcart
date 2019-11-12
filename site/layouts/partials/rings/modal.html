@@ -127,7 +127,9 @@
                 data-item-id="{{ .id }}"
                 data-item-name="{{ .name }}"
 	     {{ if eq .on_sale true }}
-                data-item-price="{{ .Params.salePrice }}"
+		      {{ $calc := mul (div .discount 100.0) .price }}
+		      {{ $salePrice := sub .price $calc }}
+                data-item-price="{{ $salePrice }}"
              {{ else }}
                 data-item-price="{{ .price }}"
 	     {{ end }}
