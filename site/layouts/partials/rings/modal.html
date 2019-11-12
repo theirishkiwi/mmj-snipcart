@@ -108,11 +108,20 @@
                 <span class="green-text">
                   <strong class="price">£
 	          {{ if eq .on_sale true }}
+		  <!-- Calculates $sale_price from % discount -->  
+			{{ $calc := mul (div .discount 100.0) .price }}
+			{{ $salePrice := sub .price $calc }}
+			{{ $salePrice }} 
+                        <span>£{{ .price }}</span>
+                  {{ else }}
+                        {{ .price }}
+                  {{ end }}
 		      {{ .sale_price }}
 		     <span>£{{ .price }}</span>
                   {{ else }}
                      {{ .price }}
-		  {{ end }}   
+		  {{ end }} 
+			  
                   </strong>
                 </span>
               </h4>
