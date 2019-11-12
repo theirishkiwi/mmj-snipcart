@@ -41,12 +41,6 @@ fields:
     required: false
   label: discount (%)
   description: 'Active when ''on_sale'' toggle is enabled '
-- name: sale_price
-  type: number
-  config:
-    required: false
-  label: Sale price
-  description: 'Active when ''on_sale'' toggle is enabled '
 - type: textarea
   name: description
   label: description
