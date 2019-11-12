@@ -36,7 +36,7 @@ fields:
   showOnly:
     value: true
 - name: discount
-  type: text
+  type: number
   config:
     required: false
   label: discount (%)
