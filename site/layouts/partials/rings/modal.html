@@ -22,24 +22,38 @@
                   <img class="d-block w-100"
                     src="{{ .image }}"
                     alt="">
+		  {{ if eq .on_sale true }}
+		      <span class="product-sale-label">Sale</span>
+		      <span class="product-discount-label">-{{ .discount }}%</span>
+		  {{ else if eq .new_item true }}
+		      <span class="product-new-label">New</span>
+		  {{ else }}
+		  {{ end }}
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100"
                     src="{{ .img_closeup }}"
                     alt="">
+	          {{ if eq .on_sale true }}
+		      <span class="product-sale-label">Sale</span>
+		      <span class="product-discount-label">-{{ .discount }}%</span>
+		  {{ else if eq .new_item true }}
+		      <span class="product-new-label">New</span>
+		  {{ else }}
+		  {{ end }}
                 </div>
                 <!--div class="carousel-item">
                   <img class="d-block w-100"
                     src="{{ .image3 }}"
                     alt="">
-                </div-->
                   {{ if eq .on_sale true }}
 		      <span class="product-sale-label">Sale</span>
 		      <span class="product-discount-label">-{{ .discount }}%</span>
 		  {{ else if eq .new_item true }}
 		      <span class="product-new-label">New</span>
 		  {{ else }}
-		  {{ end }}   
+		  {{ end }}
+                </div-->   
               </div>
               <!--/.Slides-->
               
