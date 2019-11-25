@@ -33,6 +33,13 @@
                     src="{{ .image3 }}"
                     alt="">
                 </div-->
+                  {{ if eq .on_sale true }}
+		      <span class="product-sale-label">Sale</span>
+		      <span class="product-discount-label">-{{ .discount }}%</span>
+		  {{ else if eq .new_item true }}
+		      <span class="product-new-label">New</span>
+		  {{ else }}
+		  {{ end }}   
               </div>
               <!--/.Slides-->
               
