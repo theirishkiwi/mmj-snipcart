@@ -1,10 +1,9 @@
 ---
-title: "Stronsay"
-date: 2018-11-28T15:15:34+10:00
+title: Stronsay Island
+date: 2018-11-28T05:15:34.000+00:00
 featured: true
-draft: false
----
 
+---
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
